@@ -1,0 +1,426 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Inkorp Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Overworld"
+                    ]
+                }
+            },
+            {
+                "title": "Welcome To Inkorp",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Welcome to Inkorp"
+                    ]
+                }
+            },
+            {
+                "title": "Potatoes Ink",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Potatoes Ink"
+                    ]
+                }
+            },
+            {
+                "title": "Stick To The Plan",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stick To The Plan"
+                    ]
+                }
+            },
+            {
+                "title": "Let It Bounce",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Let It Bounce"
+                    ]
+                }
+            },
+            {
+                "title": "Jump On The Water",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Jump On The Water"
+                    ]
+                }
+            },
+            {
+                "title": "A Bad Encounter",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "A Bad Encounter"
+                    ]
+                }
+            },
+            {
+                "title": "There Will Be Fries",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "There Will Be Fries"
+                    ]
+                }
+            },
+            {
+                "title": "Ray Man Origin",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ray Man Origin"
+                    ]
+                }
+            },
+            {
+                "title": "Stick On The Water",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stick On The Water"
+                    ]
+                }
+            },
+            {
+                "title": "Ink In Park",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ink In Park"
+                    ]
+                }
+            },
+            {
+                "title": "Wind Walker",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Wind Walker"
+                    ]
+                }
+            },
+            {
+                "title": "Troopers Please",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Troopers Please"
+                    ]
+                }
+            },
+            {
+                "title": "Water Is Coming",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Water Is Coming"
+                    ]
+                }
+            },
+            {
+                "title": "Inkorp Express",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Inkorp Express"
+                    ]
+                }
+            },
+            {
+                "title": "Big Bounce Theory",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Big Bounce Theory"
+                    ]
+                }
+            },
+            {
+                "title": "Toxink Bubbles",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Toxink Bubbles"
+                    ]
+                }
+            },
+            {
+                "title": "Storm Wind",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Storm Wind"
+                    ]
+                }
+            },
+            {
+                "title": "Ray Man Legend",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ray Man Legend"
+                    ]
+                }
+            },
+            {
+                "title": "Toxink Avenger",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Toxink Avenger"
+                    ]
+                }
+            },
+            {
+                "title": "The Glados Principle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Glados Principle"
+                    ]
+                }
+            },
+            {
+                "title": "Apocalink Now",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Apocalink Now"
+                    ]
+                }
+            },
+            {
+                "title": "Good Luck Splasher",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Good Luck Splasher"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Inkorp Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Overworld"
+                    ]
+                }
+            },
+            {
+                "title": "Welcome To Inkorp",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Welcome to Inkorp"
+                    ]
+                }
+            },
+            {
+                "title": "Potatoes Ink",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Potatoes Ink"
+                    ]
+                }
+            },
+            {
+                "title": "Stick To The Plan",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stick To The Plan"
+                    ]
+                }
+            },
+            {
+                "title": "Let It Bounce",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Let It Bounce"
+                    ]
+                }
+            },
+            {
+                "title": "Jump On The Water",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Jump On The Water"
+                    ]
+                }
+            },
+            {
+                "title": "A Bad Encounter",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "A Bad Encounter"
+                    ]
+                }
+            },
+            {
+                "title": "There Will Be Fries",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "There Will Be Fries"
+                    ]
+                }
+            },
+            {
+                "title": "Ray Man Origin",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ray Man Origin"
+                    ]
+                }
+            },
+            {
+                "title": "Stick On The Water",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stick On The Water"
+                    ]
+                }
+            },
+            {
+                "title": "Ink In Park",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ink In Park"
+                    ]
+                }
+            },
+            {
+                "title": "Wind Walker",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Wind Walker"
+                    ]
+                }
+            },
+            {
+                "title": "Troopers Please",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Troopers Please"
+                    ]
+                }
+            },
+            {
+                "title": "Water Is Coming",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Water Is Coming"
+                    ]
+                }
+            },
+            {
+                "title": "Inkorp Express",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Inkorp Express"
+                    ]
+                }
+            },
+            {
+                "title": "Big Bounce Theory",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Big Bounce Theory"
+                    ]
+                }
+            },
+            {
+                "title": "Toxink Bubbles",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Toxink Bubbles"
+                    ]
+                }
+            },
+            {
+                "title": "Storm Wind",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Storm Wind"
+                    ]
+                }
+            },
+            {
+                "title": "Ray Man Legend",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ray Man Legend"
+                    ]
+                }
+            },
+            {
+                "title": "Toxink Avenger",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Toxink Avenger"
+                    ]
+                }
+            },
+            {
+                "title": "The Glados Principle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Glados Principle"
+                    ]
+                }
+            },
+            {
+                "title": "Apocalink Now",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Apocalink Now"
+                    ]
+                }
+            },
+            {
+                "title": "Good Luck Splasher",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Good Luck Splasher"
+                    ]
+                }
+            }
+        ]
+    }
+}

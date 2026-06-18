@@ -1,0 +1,304 @@
+[
+    {
+        "name": "raymanlegend:entrancekey",
+        "type": "toggle",
+        "img": "images/items/raymanlegend:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "raymanlegend:entrancekey"
+    },
+    {
+        "name": "potatoesink:entrancekey",
+        "type": "toggle",
+        "img": "images/items/potatoesink:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "potatoesink:entrancekey"
+    },
+    {
+        "name": "jumponthewater:entrancekey",
+        "type": "toggle",
+        "img": "images/items/jumponthewater:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jumponthewater:entrancekey"
+    },
+    {
+        "name": "stormwind:entrancekey",
+        "type": "toggle",
+        "img": "images/items/stormwind:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stormwind:entrancekey"
+    },
+    {
+        "name": "freedom",
+        "type": "toggle",
+        "img": "images/items/freedom.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "freedom"
+    },
+    {
+        "name": "abadencounter:entrancekey",
+        "type": "toggle",
+        "img": "images/items/abadencounter:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "abadencounter:entrancekey"
+    },
+    {
+        "name": "apocalinknow:entrancekey",
+        "type": "toggle",
+        "img": "images/items/apocalinknow:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apocalinknow:entrancekey"
+    },
+    {
+        "name": "paintswap",
+        "type": "toggle",
+        "img": "images/items/paintswap.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "paintswap"
+    },
+    {
+        "name": "Splasher",
+        "type": "consumable",
+        "img": "images/items/Splasher.png",
+        "min_quantity": 0,
+        "max_quantity": 154,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "Splasher"
+    },
+    {
+        "name": "bodyaches",
+        "type": "toggle",
+        "img": "images/items/bodyaches.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bodyaches"
+    },
+    {
+        "name": "thegladosprinciple:entrancekey",
+        "type": "toggle",
+        "img": "images/items/thegladosprinciple:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thegladosprinciple:entrancekey"
+    },
+    {
+        "name": "toxinkbubbles:entrancekey",
+        "type": "toggle",
+        "img": "images/items/toxinkbubbles:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "toxinkbubbles:entrancekey"
+    },
+    {
+        "name": "Water",
+        "type": "toggle",
+        "img": "images/items/Water.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Water"
+    },
+    {
+        "name": "letitbounce:entrancekey",
+        "type": "toggle",
+        "img": "images/items/letitbounce:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "letitbounce:entrancekey"
+    },
+    {
+        "name": "ProgressivePower",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "initial_active_state": true,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Progressive Fluid NONE",
+                "inherit_codes": true,
+                "img": "/images/items/ProgressivePower.png",
+                "codes": "ProgressivePower, ProgressivePower_stage0"
+            },
+            {
+                "name": "Progressive Fluid W",
+                "inherit_codes": true,
+                "img": "/images/items/ProgressivePower1.png",
+                "codes": "ProgressivePower_stage1"
+            },
+            {
+                "name": "Progressive Fluid WS",
+                "inherit_codes": true,
+                "img": "/images/items/ProgressivePower2.png",
+                "codes": "ProgressivePower_stage2"
+            },
+            {
+                "name": "Progressive Fluid WSB",
+                "inherit_codes": true,
+                "img": "/images/items/ProgressivePower3.png",
+                "codes": "ProgressivePower_stage3"
+            }
+        ]
+    },
+    {
+        "name": "bigbouncetheory:entrancekey",
+        "type": "toggle",
+        "img": "images/items/bigbouncetheory:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bigbouncetheory:entrancekey"
+    },
+    {
+        "name": "windwalker:entrancekey",
+        "type": "toggle",
+        "img": "images/items/windwalker:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "windwalker:entrancekey"
+    },
+    {
+        "name": "Bouncy Paint",
+        "type": "toggle",
+        "img": "images/items/BouncyPaint.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "BouncyPaint"
+    },
+    {
+        "name": "toxinkavenger:entrancekey",
+        "type": "toggle",
+        "img": "images/items/toxinkavenger:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "toxinkavenger:entrancekey"
+    },
+    {
+        "name": "Sticky Paint",
+        "type": "toggle",
+        "img": "images/items/StickyPaint.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "StickyPaint"
+    },
+    {
+        "name": "welcometoinkorp:entrancekey",
+        "type": "toggle",
+        "img": "images/items/welcometoinkorp:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "welcometoinkorp:entrancekey"
+    },
+    {
+        "name": "wateriscoming:entrancekey",
+        "type": "toggle",
+        "img": "images/items/wateriscoming:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wateriscoming:entrancekey"
+    },
+    {
+        "name": "troopersplease:entrancekey",
+        "type": "toggle",
+        "img": "images/items/troopersplease:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "troopersplease:entrancekey"
+    },
+    {
+        "name": "jobpromotion",
+        "type": "toggle",
+        "img": "images/items/jobpromotion.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jobpromotion"
+    },
+    {
+        "name": "essence",
+        "type": "consumable",
+        "img": "images/items/essence.png",
+        "min_quantity": 0,
+        "max_quantity": 1000,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "essence"
+    },
+    {
+        "name": "sticktotheplan:entrancekey",
+        "type": "toggle",
+        "img": "images/items/sticktotheplan:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sticktotheplan:entrancekey"
+    },
+    {
+        "name": "raymanorigin:entrancekey",
+        "type": "toggle",
+        "img": "images/items/raymanorigin:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "raymanorigin:entrancekey"
+    },
+    {
+        "name": "therewillbefries:entrancekey",
+        "type": "toggle",
+        "img": "images/items/therewillbefries:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "therewillbefries:entrancekey"
+    },
+    {
+        "name": "inkorpexpress:entrancekey",
+        "type": "toggle",
+        "img": "images/items/inkorpexpress:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "inkorpexpress:entrancekey"
+    },
+    {
+        "name": "goodlucksplasher:entrancekey",
+        "type": "toggle",
+        "img": "images/items/goodlucksplasher:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goodlucksplasher:entrancekey"
+    },
+    {
+        "name": "inkinpark:entrancekey",
+        "type": "toggle",
+        "img": "images/items/inkinpark:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "inkinpark:entrancekey"
+    },
+    {
+        "name": "stickonthewater:entrancekey",
+        "type": "toggle",
+        "img": "images/items/stickonthewater:entrancekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stickonthewater:entrancekey"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

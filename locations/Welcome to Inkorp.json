@@ -1,0 +1,257 @@
+[
+    {
+        "name": "Welcome to Inkorp",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Water Unlock",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (1)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (2)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (3)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (4)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (5)",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (6)",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (Gold)",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Clear",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Medal",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Medal",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gold Medal",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platinum Medal",
+                        "access_rules": ["Water Unlock"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Unlock",
+                "sections": [
+                    {
+                        "name": "Water Unlock",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 3083,
+                        "y": 2940,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 755,
+                        "y": 238,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 2000,
+                        "y": 298,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 1124,
+                        "y": 1232,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 1182,
+                        "y": 1934,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 2125,
+                        "y": 1851,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 3061,
+                        "y": 2827,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 3997,
+                        "y": 2280,
+                        "size": 100,
+                        "shape": "rect"
+                    }
+                ]
+            }
+        ]
+    }
+]

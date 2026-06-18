@@ -1,0 +1,1961 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "A Bad Encounter - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Sticky Paint Unlock",
+                        "ref": "A Bad Encounter/Normal/Sticky Paint Unlock"
+                    },
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "A Bad Encounter/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "A Bad Encounter/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "A Bad Encounter/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "A Bad Encounter/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "A Bad Encounter/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "A Bad Encounter/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "A Bad Encounter/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "A Bad Encounter/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 252,
+                        "y": 1769,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "A Bad Encounter/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "A Bad Encounter/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "A Bad Encounter/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "A Bad Encounter/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 280,
+                        "y": 1729,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Apocalink Now - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Apocalink Now/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Apocalink Now/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Apocalink Now/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Apocalink Now/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Apocalink Now/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Apocalink Now/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Apocalink Now/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Apocalink Now/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1932,
+                        "y": 1971,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Apocalink Now - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Apocalink Now/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Apocalink Now/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Apocalink Now/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Apocalink Now/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1957,
+                        "y": 1928,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Big Bounce Theory - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Big Bounce Theory/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Big Bounce Theory/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 878,
+                        "y": 1455,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Big Bounce Theory - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Big Bounce Theory/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Big Bounce Theory/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Big Bounce Theory/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Big Bounce Theory/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 906,
+                        "y": 1420,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck Splasher - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Good Luck Splasher/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Good Luck Splasher/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1122,
+                        "y": 331,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck Splasher - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Good Luck Splasher/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Good Luck Splasher/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Good Luck Splasher/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Good Luck Splasher/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1150,
+                        "y": 291,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ink In Park - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Ink In Park/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Ink In Park/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Ink In Park/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Ink In Park/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Ink In Park/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Ink In Park/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Ink In Park/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Ink In Park/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1265,
+                        "y": 1324,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Ink In Park - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Ink In Park/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Ink In Park/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Ink In Park/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Ink In Park/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1290,
+                        "y": 1284,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Bouncy Paint Unlock",
+                        "ref": "Inkorp Express/Normal/Bouncy Paint Unlock"
+                    },
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Inkorp Express/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Inkorp Express/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Inkorp Express/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Inkorp Express/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Inkorp Express/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Inkorp Express/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Inkorp Express/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Inkorp Express/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1677,
+                        "y": 1505,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Inkorp Express/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Inkorp Express/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Inkorp Express/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Inkorp Express/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1710,
+                        "y": 1471,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Jump On The Water/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Jump On The Water/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Jump On The Water/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Jump On The Water/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Jump On The Water/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Jump On The Water/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Jump On The Water/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Jump On The Water/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 415,
+                        "y": 1910,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Jump On The Water/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Jump On The Water/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Jump On The Water/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Jump On The Water/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 441,
+                        "y": 1875,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Let It Bounce - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Let It Bounce/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Let It Bounce/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Let It Bounce/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Let It Bounce/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Let It Bounce/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Let It Bounce/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Let It Bounce/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Let It Bounce/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1262,
+                        "y": 1660,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Let It Bounce - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Let It Bounce/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Let It Bounce/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Let It Bounce/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Let It Bounce/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1295,
+                        "y": 1619,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Potatoes Ink/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Potatoes Ink/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Potatoes Ink/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Potatoes Ink/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Potatoes Ink/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Potatoes Ink/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Potatoes Ink/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Potatoes Ink/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 616,
+                        "y": 1639,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Potatoes Ink/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Potatoes Ink/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Potatoes Ink/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Potatoes Ink/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 638,
+                        "y": 1605,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ray Man Legend - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Ray Man Legend/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Ray Man Legend/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Ray Man Legend/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Ray Man Legend/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Ray Man Legend/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Ray Man Legend/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Ray Man Legend/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Ray Man Legend/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 565,
+                        "y": 1088,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Ray Man Legend - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Ray Man Legend/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Ray Man Legend/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Ray Man Legend/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Ray Man Legend/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 597,
+                        "y": 1049,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ray Man Origin - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Ray Man Origin/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Ray Man Origin/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Ray Man Origin/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Ray Man Origin/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Ray Man Origin/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Ray Man Origin/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Ray Man Origin/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Ray Man Origin/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 829,
+                        "y": 1271,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Ray Man Origin - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Ray Man Origin/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Ray Man Origin/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Ray Man Origin/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Ray Man Origin/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 859,
+                        "y": 1234,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Stick On The Water/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Stick On The Water/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Stick On The Water/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Stick On The Water/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Stick On The Water/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Stick On The Water/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Stick On The Water/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Stick On The Water/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 638,
+                        "y": 1874,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Stick On The Water/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Stick On The Water/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Stick On The Water/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Stick On The Water/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 665,
+                        "y": 1835,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Stick To The Plan - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Stick To The Plan/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Stick To The Plan/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Stick To The Plan/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Stick To The Plan/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Stick To The Plan/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Stick To The Plan/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Stick To The Plan/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Stick To The Plan/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 397,
+                        "y": 1508,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Stick To The Plan - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Stick To The Plan/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Stick To The Plan/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Stick To The Plan/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Stick To The Plan/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 425,
+                        "y": 1478,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Storm Wind - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Storm Wind/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Storm Wind/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Storm Wind/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Storm Wind/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Storm Wind/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Storm Wind/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Storm Wind/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Storm Wind/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1794,
+                        "y": 1110,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Storm Wind - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Storm Wind/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Storm Wind/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Storm Wind/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Storm Wind/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1825,
+                        "y": 1073,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "The Glados Principle - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "The Glados Principle/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "The Glados Principle/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "The Glados Principle/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "The Glados Principle/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "The Glados Principle/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "The Glados Principle/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "The Glados Principle/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "The Glados Principle/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 829,
+                        "y": 1086,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "The Glados Principle - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "The Glados Principle/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "The Glados Principle/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "The Glados Principle/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "The Glados Principle/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 856,
+                        "y": 1046,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "There Will Be Fries - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "There Will Be Fries/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "There Will Be Fries/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "There Will Be Fries/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "There Will Be Fries/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "There Will Be Fries/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "There Will Be Fries/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "There Will Be Fries/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "There Will Be Fries/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 753,
+                        "y": 1526,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "There Will Be Fries - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "There Will Be Fries/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "There Will Be Fries/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "There Will Be Fries/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "There Will Be Fries/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 781,
+                        "y": 1487,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Avenger - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Toxink Avenger/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Toxink Avenger/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Toxink Avenger/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Toxink Avenger/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Toxink Avenger/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Toxink Avenger/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Toxink Avenger/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Toxink Avenger/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1641,
+                        "y": 1933,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Avenger - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Toxink Avenger/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Toxink Avenger/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Toxink Avenger/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Toxink Avenger/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1666,
+                        "y": 1891,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Toxink Bubbles/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1426,
+                        "y": 1976,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Toxink Bubbles/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Toxink Bubbles/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Toxink Bubbles/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Toxink Bubbles/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1448,
+                        "y": 1933,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Troopers Please - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Troopers Please/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Troopers Please/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Troopers Please/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Troopers Please/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Troopers Please/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Troopers Please/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Troopers Please/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Troopers Please/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 565,
+                        "y": 1275,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Troopers Please - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Troopers Please/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Troopers Please/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Troopers Please/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Troopers Please/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 594,
+                        "y": 1237,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Water Is Coming/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Water Is Coming/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Water Is Coming/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Water Is Coming/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Water Is Coming/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Water Is Coming/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Water Is Coming/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Water Is Coming/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 879,
+                        "y": 1835,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Water Is Coming/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Water Is Coming/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Water Is Coming/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Water Is Coming/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 908,
+                        "y": 1795,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome To Inkorp - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Water Unlock",
+                        "ref": "Welcome to Inkorp/Normal/Water Unlock"
+                    },
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Welcome to Inkorp/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Welcome to Inkorp/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 79,
+                        "y": 1637,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome To Inkorp - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Welcome to Inkorp/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Welcome to Inkorp/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Welcome to Inkorp/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Welcome to Inkorp/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 101,
+                        "y": 1603,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Wind Walker - Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal - Splasher (1)",
+                        "ref": "Wind Walker/Normal/Splasher (1)"
+                    },
+                    {
+                        "name": "Normal - Splasher (2)",
+                        "ref": "Wind Walker/Normal/Splasher (2)"
+                    },
+                    {
+                        "name": "Normal - Splasher (3)",
+                        "ref": "Wind Walker/Normal/Splasher (3)"
+                    },
+                    {
+                        "name": "Normal - Splasher (4)",
+                        "ref": "Wind Walker/Normal/Splasher (4)"
+                    },
+                    {
+                        "name": "Normal - Splasher (5)",
+                        "ref": "Wind Walker/Normal/Splasher (5)"
+                    },
+                    {
+                        "name": "Normal - Splasher (6)",
+                        "ref": "Wind Walker/Normal/Splasher (6)"
+                    },
+                    {
+                        "name": "Normal - Splasher (Gold)",
+                        "ref": "Wind Walker/Normal/Splasher (Gold)"
+                    },
+                    {
+                        "name": "Normal - Clear",
+                        "ref": "Wind Walker/Normal/Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1658,
+                        "y": 1210,
+                        "size": 40,
+                        "shape": "trapezoid"
+                    }
+                ]
+            },
+            {
+                "name": "Wind Walker - Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Speedrun - Bronze Medal",
+                        "ref": "Wind Walker/Speedrun/Bronze Medal"
+                    },
+                    {
+                        "name": "Speedrun - Silver Medal",
+                        "ref": "Wind Walker/Speedrun/Silver Medal"
+                    },
+                    {
+                        "name": "Speedrun - Gold Medal",
+                        "ref": "Wind Walker/Speedrun/Gold Medal"
+                    },
+                    {
+                        "name": "Speedrun - Platinum Medal",
+                        "ref": "Wind Walker/Speedrun/Platinum Medal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1682,
+                        "y": 1173,
+                        "size": 30,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Potatoes Ink",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Normal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Splasher (1)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (2)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (3)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (4)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (5)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (6)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splasher (Gold)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Speedrun",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Medal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Medal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gold Medal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platinum Medal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Potatoes Ink/Normal/Splasher (1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 1555,
+                        "y": 1849,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Potatoes Ink/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 2992,
+                        "y": 1270,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Potatoes Ink/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 298,
+                        "y": 3064,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Potatoes Ink/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 1083,
+                        "y": 2288,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Potatoes Ink/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 1922,
+                        "y": 2489,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Potatoes Ink/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 3189,
+                        "y": 2319,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Potatoes Ink - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Potatoes Ink/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potatoes Ink",
+                        "x": 4705,
+                        "y": 2443,
+                        "size": 125,
+                        "shape": "rect"
+                    }
+                ]
+            }
+        ]
+    }
+]
