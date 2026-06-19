@@ -113,9 +113,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 1555,
-                        "y": 1849,
-                        "size": 125,
+                        "x": 621,
+                        "y": 511,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -131,9 +131,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 2992,
-                        "y": 1270,
-                        "size": 125,
+                        "x": 1198,
+                        "y": 282,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -149,9 +149,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 298,
-                        "y": 3064,
-                        "size": 125,
+                        "x": 119,
+                        "y": 995,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -167,9 +167,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 1083,
-                        "y": 2288,
-                        "size": 125,
+                        "x": 432,
+                        "y": 688,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -185,9 +185,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 1922,
-                        "y": 2489,
-                        "size": 125,
+                        "x": 770,
+                        "y": 767,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -203,9 +203,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 3189,
-                        "y": 2319,
-                        "size": 125,
+                        "x": 1276,
+                        "y": 698,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -221,9 +221,9 @@
                 "map_locations": [
                     {
                         "map": "Potatoes Ink",
-                        "x": 4705,
-                        "y": 2443,
-                        "size": 125,
+                        "x": 1882,
+                        "y": 747,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]

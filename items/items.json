@@ -126,16 +126,10 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "Progressive Fluid NONE",
-                "inherit_codes": true,
-                "img": "/images/items/ProgressivePower.png",
-                "codes": "ProgressivePower, ProgressivePower_stage0"
-            },
-            {
                 "name": "Progressive Fluid W",
                 "inherit_codes": true,
                 "img": "/images/items/ProgressivePower1.png",
-                "codes": "ProgressivePower_stage1"
+                "codes": "ProgressivePower, ProgressivePower_stage1"
             },
             {
                 "name": "Progressive Fluid WS",
