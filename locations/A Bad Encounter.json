@@ -71,14 +71,6 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "A Bad Encounter",
-                        "x": 1339,
-                        "y": 1686,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -114,13 +106,149 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Unlock",
+                "sections": [
+                    {
+                        "name": "Sticky Paint Unlock",
+                        "ref": "A Bad Encounter/Normal/Splasher (1)"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "A Bad Encounter",
-                        "x": 2485,
-                        "y": 1233,
-                        "size": 6
+                        "x": 1107,
+                        "y": 651,
+                        "size": 40,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "A Bad Encounter/Normal/Splasher (1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 269,
+                        "y": 1701,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "A Bad Encounter/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 1192,
+                        "y": 554,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "A Bad Encounter/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 1049,
+                        "y": 531,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "A Bad Encounter/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 988,
+                        "y": 413,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "A Bad Encounter/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 1054,
+                        "y": 286,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "A Bad Encounter/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 1152,
+                        "y": 421,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Bad Encounter - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "A Bad Encounter/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "A Bad Encounter",
+                        "x": 1286,
+                        "y": 126,
+                        "size": 30,
+                        "shape": "rect"
                     }
                 ]
             }

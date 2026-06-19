@@ -1,38 +1,38 @@
 [
     {
-        "name": "raymanlegend:entrancekey",
+        "name": "Rayman Legend:Entrance Key",
         "type": "toggle",
-        "img": "images/items/raymanlegend:entrancekey.png",
+        "img": "images/items/RL:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "raymanlegend:entrancekey"
+        "codes": "RL:EK"
     },
     {
-        "name": "potatoesink:entrancekey",
+        "name": "Potatoes Ink:Entrance Key",
         "type": "toggle",
-        "img": "images/items/potatoesink:entrancekey.png",
+        "img": "images/items/PI:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "potatoesink:entrancekey"
+        "codes": "PI:EK"
     },
     {
-        "name": "jumponthewater:entrancekey",
+        "name": "Jump On The Water:Entrance Key",
         "type": "toggle",
-        "img": "images/items/jumponthewater:entrancekey.png",
+        "img": "images/items/JTW:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "jumponthewater:entrancekey"
+        "codes": "JTW:EK"
     },
     {
-        "name": "stormwind:entrancekey",
+        "name": "Storm Wind:Entrance Key",
         "type": "toggle",
-        "img": "images/items/stormwind:entrancekey.png",
+        "img": "images/items/SW:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "stormwind:entrancekey"
+        "codes": "SW:EK"
     },
     {
-        "name": "freedom",
+        "name": "Freedom",
         "type": "toggle",
         "img": "images/items/freedom.png",
         "initial_active_state": false,
@@ -40,23 +40,23 @@
         "codes": "freedom"
     },
     {
-        "name": "abadencounter:entrancekey",
+        "name": "A Bad Encounter:Entrance Key",
         "type": "toggle",
-        "img": "images/items/abadencounter:entrancekey.png",
+        "img": "images/items/BE:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "abadencounter:entrancekey"
+        "codes": "BE:EK"
     },
     {
-        "name": "apocalinknow:entrancekey",
+        "name": "Apocalink Now:Entrance Key",
         "type": "toggle",
-        "img": "images/items/apocalinknow:entrancekey.png",
+        "img": "images/items/AN:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "apocalinknow:entrancekey"
+        "codes": "AN:EK"
     },
     {
-        "name": "paintswap",
+        "name": "Paintswap",
         "type": "toggle",
         "img": "images/items/paintswap.png",
         "initial_active_state": false,
@@ -86,20 +86,20 @@
         "codes": "bodyaches"
     },
     {
-        "name": "thegladosprinciple:entrancekey",
+        "name": "The Glados Principle:Entrance Key",
         "type": "toggle",
-        "img": "images/items/thegladosprinciple:entrancekey.png",
+        "img": "images/items/GP:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "thegladosprinciple:entrancekey"
+        "codes": "GP:EK"
     },
     {
-        "name": "toxinkbubbles:entrancekey",
+        "name": "Toxink Bubbles:Entrance Key",
         "type": "toggle",
-        "img": "images/items/toxinkbubbles:entrancekey.png",
+        "img": "images/items/TB:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "toxinkbubbles:entrancekey"
+        "codes": "TB:EK"
     },
     {
         "name": "Water",
@@ -110,15 +110,15 @@
         "codes": "Water"
     },
     {
-        "name": "letitbounce:entrancekey",
+        "name": "Let It Bounce:Entrance Key",
         "type": "toggle",
-        "img": "images/items/letitbounce:entrancekey.png",
+        "img": "images/items/LIB:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "letitbounce:entrancekey"
+        "codes": "LIB:EK"
     },
     {
-        "name": "ProgressivePower",
+        "name": "Progressive Power",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 0,
@@ -146,20 +146,20 @@
         ]
     },
     {
-        "name": "bigbouncetheory:entrancekey",
+        "name": "Big Bounce Theory:Entrance Key",
         "type": "toggle",
-        "img": "images/items/bigbouncetheory:entrancekey.png",
+        "img": "images/items/BBT:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bigbouncetheory:entrancekey"
+        "codes": "BBT:EK"
     },
     {
-        "name": "windwalker:entrancekey",
+        "name": "Wind Walker:Entrance Key",
         "type": "toggle",
-        "img": "images/items/windwalker:entrancekey.png",
+        "img": "images/items/WW:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "windwalker:entrancekey"
+        "codes": "WW:EK"
     },
     {
         "name": "Bouncy Paint",
@@ -170,12 +170,12 @@
         "codes": "BouncyPaint"
     },
     {
-        "name": "toxinkavenger:entrancekey",
+        "name": "Toxink Avenger:Entrance Key",
         "type": "toggle",
-        "img": "images/items/toxinkavenger:entrancekey.png",
+        "img": "images/items/TA:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "toxinkavenger:entrancekey"
+        "codes": "TA:EK"
     },
     {
         "name": "Sticky Paint",
@@ -186,31 +186,31 @@
         "codes": "StickyPaint"
     },
     {
-        "name": "welcometoinkorp:entrancekey",
+        "name": "Welcome To Inkorp:Entrance Key",
         "type": "toggle",
-        "img": "images/items/welcometoinkorp:entrancekey.png",
+        "img": "images/items/WTI:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "welcometoinkorp:entrancekey"
+        "codes": "WTI:EK"
     },
     {
-        "name": "wateriscoming:entrancekey",
+        "name": "Water Is Coming:Entrance Key",
         "type": "toggle",
-        "img": "images/items/wateriscoming:entrancekey.png",
+        "img": "images/items/WIC:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "wateriscoming:entrancekey"
+        "codes": "WIC:EK"
     },
     {
-        "name": "troopersplease:entrancekey",
+        "name": "Troopers Please:Entrance Key",
         "type": "toggle",
-        "img": "images/items/troopersplease:entrancekey.png",
+        "img": "images/items/TP:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "troopersplease:entrancekey"
+        "codes": "TP:EK"
     },
     {
-        "name": "jobpromotion",
+        "name": "Job Promotion",
         "type": "toggle",
         "img": "images/items/jobpromotion.png",
         "initial_active_state": false,
@@ -218,7 +218,7 @@
         "codes": "jobpromotion"
     },
     {
-        "name": "essence",
+        "name": "Essence",
         "type": "consumable",
         "img": "images/items/essence.png",
         "min_quantity": 0,
@@ -232,63 +232,63 @@
         "codes": "essence"
     },
     {
-        "name": "sticktotheplan:entrancekey",
+        "name": "Stick To The Plan:Entrance Key",
         "type": "toggle",
-        "img": "images/items/sticktotheplan:entrancekey.png",
+        "img": "images/items/STP:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "sticktotheplan:entrancekey"
+        "codes": "STP:EK"
     },
     {
-        "name": "raymanorigin:entrancekey",
+        "name": "Rayman Origin:Entrance Key",
         "type": "toggle",
-        "img": "images/items/raymanorigin:entrancekey.png",
+        "img": "images/items/RO:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "raymanorigin:entrancekey"
+        "codes": "RO:EK"
     },
     {
-        "name": "therewillbefries:entrancekey",
+        "name": "There Will Be Fries:Entrance Key",
         "type": "toggle",
-        "img": "images/items/therewillbefries:entrancekey.png",
+        "img": "images/items/TWBF:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "therewillbefries:entrancekey"
+        "codes": "TWBF:EK"
     },
     {
-        "name": "inkorpexpress:entrancekey",
+        "name": "Inkorp Express:Entrance Key",
         "type": "toggle",
-        "img": "images/items/inkorpexpress:entrancekey.png",
+        "img": "images/items/IE:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "inkorpexpress:entrancekey"
+        "codes": "IE:EK"
     },
     {
-        "name": "goodlucksplasher:entrancekey",
+        "name": "Good Luck Splasher:Entrance Key",
         "type": "toggle",
-        "img": "images/items/goodlucksplasher:entrancekey.png",
+        "img": "images/items/GLS:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "goodlucksplasher:entrancekey"
+        "codes": "GLS:EK"
     },
     {
-        "name": "inkinpark:entrancekey",
+        "name": "Ink In Park:Entrance Key",
         "type": "toggle",
-        "img": "images/items/inkinpark:entrancekey.png",
+        "img": "images/items/IIP:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "inkinpark:entrancekey"
+        "codes": "IIP:EK"
     },
     {
-        "name": "stickonthewater:entrancekey",
+        "name": "Stick On The Water:Entrance Key",
         "type": "toggle",
-        "img": "images/items/stickonthewater:entrancekey.png",
+        "img": "images/items/SOTW:EK.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "stickonthewater:entrancekey"
+        "codes": "SOTW:EK"
     },
     {
-        "name": "update",
+        "name": "Update",
         "type": "toggle",
         "img": "images/items/update.png",
         "initial_active_state": false,

@@ -65,14 +65,6 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Jump On The Water",
-                        "x": 67,
-                        "y": 203,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -108,13 +100,131 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Jump On The Water/Normal/Splasher (1)"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "Jump On The Water",
-                        "x": 119,
-                        "y": 388,
-                        "size": 6
+                        "x": 309,
+                        "y": 332,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Jump On The Water/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Jump On The Water",
+                        "x": 590,
+                        "y": 454,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Jump On The Water/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Jump On The Water",
+                        "x": 1244,
+                        "y": 255,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Jump On The Water/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Jump On The Water",
+                        "x": 36,
+                        "y": 889,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Jump On The Water/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Jump On The Water",
+                        "x": 1005,
+                        "y": 957,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Jump On The Water/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Jump On The Water",
+                        "x": 1644,
+                        "y": 829,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Jump On The Water - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Jump On The Water/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Jump On The Water",
+                        "x": 1926,
+                        "y": 914,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }

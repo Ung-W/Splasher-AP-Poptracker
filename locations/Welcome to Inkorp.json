@@ -134,9 +134,9 @@
                     {
                         "map": "Welcome to Inkorp",
                         "x": 1434,
-                        "y": 1367,
-                        "size": 30,
-                        "shape": "rect"
+                        "y": 1369,
+                        "size": 40,
+                        "shape": "diamond"
                     }
                 ]
             },
