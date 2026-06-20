@@ -114,7 +114,7 @@
                     {
                         "map": "Ray Man Origin",
                         "x": 242,
-                        "y": 530,
+                        "y": 408,
                         "size": 30,
                         "shape": "rect"
                     }
@@ -131,8 +131,8 @@
                 "map_locations": [
                     {
                         "map": "Ray Man Origin",
-                        "x": 1017,
-                        "y": 373,
+                        "x": 1016,
+                        "y": 253,
                         "size": 30,
                         "shape": "rect"
                     }
@@ -149,8 +149,8 @@
                 "map_locations": [
                     {
                         "map": "Ray Man Origin",
-                        "x": 1686,
-                        "y": 256,
+                        "x": 1687,
+                        "y": 136,
                         "size": 30,
                         "shape": "rect"
                     }
@@ -168,7 +168,7 @@
                     {
                         "map": "Ray Man Origin",
                         "x": 177,
-                        "y": 843,
+                        "y": 723,
                         "size": 30,
                         "shape": "rect"
                     }
@@ -185,8 +185,8 @@
                 "map_locations": [
                     {
                         "map": "Ray Man Origin",
-                        "x": 1065,
-                        "y": 597,
+                        "x": 1064,
+                        "y": 475,
                         "size": 30,
                         "shape": "rect"
                     }
@@ -203,8 +203,8 @@
                 "map_locations": [
                     {
                         "map": "Ray Man Origin",
-                        "x": 1537,
-                        "y": 640,
+                        "x": 1536,
+                        "y": 517,
                         "size": 30,
                         "shape": "rect"
                     }
@@ -221,8 +221,8 @@
                 "map_locations": [
                     {
                         "map": "Ray Man Origin",
-                        "x": 1900,
-                        "y": 601,
+                        "x": 1899,
+                        "y": 479,
                         "size": 30,
                         "shape": "rect"
                     }

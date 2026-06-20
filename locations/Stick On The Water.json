@@ -65,14 +65,6 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Stick On The Water",
-                        "x": 1508,
-                        "y": 1572,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -108,13 +100,131 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Stick On The Water/Normal/Splasher (1)"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "Stick On The Water",
-                        "x": 1878,
-                        "y": 932,
-                        "size": 6
+                        "x": 680,
+                        "y": 1068,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Stick On The Water/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stick On The Water",
+                        "x": 1382,
+                        "y": 664,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Stick On The Water/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stick On The Water",
+                        "x": 1703,
+                        "y": 356,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Stick On The Water/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stick On The Water",
+                        "x": 117,
+                        "y": 1561,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Stick On The Water/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stick On The Water",
+                        "x": 864,
+                        "y": 1371,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Stick On The Water/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stick On The Water",
+                        "x": 1305,
+                        "y": 1182,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Stick On The Water - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Stick On The Water/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stick On The Water",
+                        "x": 1846,
+                        "y": 1042,
+                        "size": 30,
+                        "shape": "rect"
                     }
                 ]
             }
