@@ -115,7 +115,7 @@
                         "map": "Wind Walker",
                         "x": 161,
                         "y": 101,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]
@@ -133,7 +133,7 @@
                         "map": "Wind Walker",
                         "x": 879,
                         "y": 148,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]
@@ -151,7 +151,7 @@
                         "map": "Wind Walker",
                         "x": 1576,
                         "y": 34,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]
@@ -169,7 +169,7 @@
                         "map": "Wind Walker",
                         "x": 1911,
                         "y": 76,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]
@@ -187,7 +187,7 @@
                         "map": "Wind Walker",
                         "x": 1036,
                         "y": 344,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]
@@ -205,7 +205,7 @@
                         "map": "Wind Walker",
                         "x": 1360,
                         "y": 252,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]
@@ -223,7 +223,7 @@
                         "map": "Wind Walker",
                         "x": 1926,
                         "y": 209,
-                        "size": 30,
+                        "size": 20,
                         "shape": "rect"
                     }
                 ]

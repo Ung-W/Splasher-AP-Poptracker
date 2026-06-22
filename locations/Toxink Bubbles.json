@@ -65,14 +65,6 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Toxink Bubbles",
-                        "x": 1514,
-                        "y": 1728,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -108,13 +100,131 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (1)"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "Toxink Bubbles",
-                        "x": 1793,
-                        "y": 352,
-                        "size": 6
+                        "x": 451,
+                        "y": 934,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Toxink Bubbles",
+                        "x": 1140,
+                        "y": 1021,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Toxink Bubbles",
+                        "x": 1142,
+                        "y": 678,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Toxink Bubbles",
+                        "x": 1960,
+                        "y": 250,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Toxink Bubbles",
+                        "x": 876,
+                        "y": 1305,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Toxink Bubbles",
+                        "x": 1446,
+                        "y": 1041,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Toxink Bubbles - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Toxink Bubbles/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Toxink Bubbles",
+                        "x": 1885,
+                        "y": 703,
+                        "size": 30,
+                        "shape": "rect"
                     }
                 ]
             }

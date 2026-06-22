@@ -71,14 +71,6 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Inkorp Express",
-                        "x": 1531,
-                        "y": 2115,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -114,13 +106,149 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Unlock",
+                "sections": [
+                    {
+                        "name": "Sticky Paint Unlock",
+                        "ref": "Inkorp Express/Normal/Splasher (1)"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "Inkorp Express",
-                        "x": 1899,
-                        "y": 1813,
-                        "size": 6
+                        "x": 1502,
+                        "y": 1008,
+                        "size": 50,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Inkorp Express/Normal/Splasher (1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1848,
+                        "y": 191,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Inkorp Express/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1910,
+                        "y": 1074,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Inkorp Express/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1504,
+                        "y": 916,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Inkorp Express/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1083,
+                        "y": 862,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Inkorp Express/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1433,
+                        "y": 696,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Inkorp Express/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1683,
+                        "y": 792,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Inkorp Express - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Inkorp Express/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inkorp Express",
+                        "x": 1850,
+                        "y": 435,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }

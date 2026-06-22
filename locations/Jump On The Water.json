@@ -115,7 +115,7 @@
                         "map": "Jump On The Water",
                         "x": 309,
                         "y": 332,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -133,7 +133,7 @@
                         "map": "Jump On The Water",
                         "x": 590,
                         "y": 454,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -151,7 +151,7 @@
                         "map": "Jump On The Water",
                         "x": 1244,
                         "y": 255,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -169,7 +169,7 @@
                         "map": "Jump On The Water",
                         "x": 36,
                         "y": 889,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -187,7 +187,7 @@
                         "map": "Jump On The Water",
                         "x": 1005,
                         "y": 957,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -205,7 +205,7 @@
                         "map": "Jump On The Water",
                         "x": 1644,
                         "y": 829,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]
@@ -223,7 +223,7 @@
                         "map": "Jump On The Water",
                         "x": 1926,
                         "y": 914,
-                        "size": 40,
+                        "size": 30,
                         "shape": "rect"
                     }
                 ]

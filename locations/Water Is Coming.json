@@ -65,14 +65,6 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Water Is Coming",
-                        "x": 2287,
-                        "y": 860,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -108,13 +100,131 @@
                         "visibility_rules": [],
                         "item_count": 1
                     }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (1)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Water Is Coming/Normal/Splasher (1)"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "Water Is Coming",
-                        "x": 977,
-                        "y": 1489,
-                        "size": 6
+                        "x": 446,
+                        "y": 697,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (2)",
+                "sections": [
+                    {
+                        "name": "Splasher (P)",
+                        "ref": "Water Is Coming/Normal/Splasher (2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Water Is Coming",
+                        "x": 720,
+                        "y": 488,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (3)",
+                "sections": [
+                    {
+                        "name": "Splasher (L)",
+                        "ref": "Water Is Coming/Normal/Splasher (3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Water Is Coming",
+                        "x": 1428,
+                        "y": 627,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (4)",
+                "sections": [
+                    {
+                        "name": "Splasher (A)",
+                        "ref": "Water Is Coming/Normal/Splasher (4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Water Is Coming",
+                        "x": 283,
+                        "y": 1329,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (5)",
+                "sections": [
+                    {
+                        "name": "Splasher (S)",
+                        "ref": "Water Is Coming/Normal/Splasher (5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Water Is Coming",
+                        "x": 558,
+                        "y": 997,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (6)",
+                "sections": [
+                    {
+                        "name": "Splasher (H)",
+                        "ref": "Water Is Coming/Normal/Splasher (6)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Water Is Coming",
+                        "x": 1560,
+                        "y": 943,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Water Is Coming - Splasher (7)",
+                "sections": [
+                    {
+                        "name": "Splasher (!)",
+                        "ref": "Water Is Coming/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Water Is Coming",
+                        "x": 1946,
+                        "y": 447,
+                        "size": 30,
+                        "shape": "rect"
                     }
                 ]
             }
