@@ -2,7 +2,7 @@
     {
         "name": "Rayman Legend:Entrance Key",
         "type": "toggle",
-        "img": "images/items/RL:EK.png",
+        "img": "images/items/EK/RLEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "RL:EK"
@@ -10,7 +10,7 @@
     {
         "name": "Potatoes Ink:Entrance Key",
         "type": "toggle",
-        "img": "images/items/PI:EK.png",
+        "img": "images/items/EK/PIEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "PI:EK"
@@ -18,7 +18,7 @@
     {
         "name": "Jump On The Water:Entrance Key",
         "type": "toggle",
-        "img": "images/items/JTW:EK.png",
+        "img": "images/items/EK/JTWEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "JTW:EK"
@@ -26,7 +26,7 @@
     {
         "name": "Storm Wind:Entrance Key",
         "type": "toggle",
-        "img": "images/items/SW:EK.png",
+        "img": "images/items/EK/SWEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "SW:EK"
@@ -42,7 +42,7 @@
     {
         "name": "A Bad Encounter:Entrance Key",
         "type": "toggle",
-        "img": "images/items/BE:EK.png",
+        "img": "images/items/EK/BEEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "BE:EK"
@@ -50,7 +50,7 @@
     {
         "name": "Apocalink Now:Entrance Key",
         "type": "toggle",
-        "img": "images/items/AN:EK.png",
+        "img": "images/items/EK/ANEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "AN:EK"
@@ -88,7 +88,7 @@
     {
         "name": "The Glados Principle:Entrance Key",
         "type": "toggle",
-        "img": "images/items/GP:EK.png",
+        "img": "images/items/EK/GPEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "GP:EK"
@@ -96,7 +96,7 @@
     {
         "name": "Toxink Bubbles:Entrance Key",
         "type": "toggle",
-        "img": "images/items/TB:EK.png",
+        "img": "images/items/EK/TBEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TB:EK"
@@ -112,7 +112,7 @@
     {
         "name": "Let It Bounce:Entrance Key",
         "type": "toggle",
-        "img": "images/items/LIB:EK.png",
+        "img": "images/items/EK/LIBEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "LIB:EK"
@@ -148,7 +148,7 @@
     {
         "name": "Big Bounce Theory:Entrance Key",
         "type": "toggle",
-        "img": "images/items/BBT:EK.png",
+        "img": "images/items/EK/BBTEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "BBT:EK"
@@ -156,7 +156,7 @@
     {
         "name": "Wind Walker:Entrance Key",
         "type": "toggle",
-        "img": "images/items/WW:EK.png",
+        "img": "images/items/EK/WWEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "WW:EK"
@@ -172,7 +172,7 @@
     {
         "name": "Toxink Avenger:Entrance Key",
         "type": "toggle",
-        "img": "images/items/TA:EK.png",
+        "img": "images/items/EK/TAEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TA:EK"
@@ -188,7 +188,7 @@
     {
         "name": "Welcome To Inkorp:Entrance Key",
         "type": "toggle",
-        "img": "images/items/WTI:EK.png",
+        "img": "images/items/EK/WTIEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "WTI:EK"
@@ -196,7 +196,7 @@
     {
         "name": "Water Is Coming:Entrance Key",
         "type": "toggle",
-        "img": "images/items/WIC:EK.png",
+        "img": "images/items/EK/WICEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "WIC:EK"
@@ -204,7 +204,7 @@
     {
         "name": "Troopers Please:Entrance Key",
         "type": "toggle",
-        "img": "images/items/TP:EK.png",
+        "img": "images/items/EK/TPEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TP:EK"
@@ -234,7 +234,7 @@
     {
         "name": "Stick To The Plan:Entrance Key",
         "type": "toggle",
-        "img": "images/items/STP:EK.png",
+        "img": "images/items/EK/STPEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "STP:EK"
@@ -242,7 +242,7 @@
     {
         "name": "Rayman Origin:Entrance Key",
         "type": "toggle",
-        "img": "images/items/RO:EK.png",
+        "img": "images/items/EK/ROEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "RO:EK"
@@ -250,7 +250,7 @@
     {
         "name": "There Will Be Fries:Entrance Key",
         "type": "toggle",
-        "img": "images/items/TWBF:EK.png",
+        "img": "images/items/EK/TWBFEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TWBF:EK"
@@ -258,7 +258,7 @@
     {
         "name": "Inkorp Express:Entrance Key",
         "type": "toggle",
-        "img": "images/items/IE:EK.png",
+        "img": "images/items/EK/IEEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "IE:EK"
@@ -266,7 +266,7 @@
     {
         "name": "Good Luck Splasher:Entrance Key",
         "type": "toggle",
-        "img": "images/items/GLS:EK.png",
+        "img": "images/items/EK/GLSEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "GLS:EK"
@@ -274,7 +274,7 @@
     {
         "name": "Ink In Park:Entrance Key",
         "type": "toggle",
-        "img": "images/items/IIP:EK.png",
+        "img": "images/items/EK/IIPEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "IIP:EK"
@@ -282,7 +282,7 @@
     {
         "name": "Stick On The Water:Entrance Key",
         "type": "toggle",
-        "img": "images/items/SOTW:EK.png",
+        "img": "images/items/EK/SOTWEK.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "SOTW:EK"

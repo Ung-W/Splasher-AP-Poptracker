@@ -13,15 +13,6 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid_vertical"
-                            }
-                        },
-                        {
-                            "type": "group",
                             "header": "Settings",
                             "dock": "top",
                             "content": {
@@ -31,12 +22,20 @@
                         },
                         {
                             "type": "group",
-                            "header": "Pinned Locations",
+                            "header": "Items",
+                            "dock": "top",
                             "content": {
-                                "style": "wrap",
-                                "type": "recentpins",
-                                "orientation": "vertical",
-                                "compact": true
+                                "type": "layout",
+                                "key": "shared_item_grid_vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Entrance Keys",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "entrance_key_grid_vertical"
                             }
                         }
                     ]
@@ -66,18 +65,6 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "shared_item_grid_horizontal"
-                            }
-                        },
-                        {
-                            "type": "group",
                             "header": "Settings",
                             "dock": "left",
                             "margin": "0,0,3,0",
@@ -90,12 +77,23 @@
                         },
                         {
                             "type": "group",
-                            "header": "Pinned Locations",
+                            "header": "Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
                             "content": {
-                                "style": "wrap",
-                                "type": "recentpins",
-                                "orientation": "horizontal",
-                                "compact": true
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_item_grid_horizontal"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Entrance Keys",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "entrance_key_grid_horizontal"
                             }
                         }
                     ]

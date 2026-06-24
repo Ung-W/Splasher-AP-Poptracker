@@ -20,10 +20,15 @@
                         "rows": [
                             [
                                 "Splasher",
-                                "Water",
-                                "StickyPaint",
-                                "BouncyPaint",
-                                "ProgressivePower"
+                                "Water"
+                            ],
+                            [
+                                "ProgressivePower",
+                                "StickyPaint"
+                            ],
+                            [
+                                "",
+                                "BouncyPaint"
                             ]
                         ]
                     }
@@ -51,11 +56,132 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "Splasher",
                                 "Water",
                                 "StickyPaint",
                                 "BouncyPaint",
+                                "Splasher",
                                 "ProgressivePower"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "entrance_key_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "WTI:EK",
+                                "PI:EK",
+                                "STP:EK",
+                                "LIB:EK",
+                                "JTW:EK"
+                            ],
+                            [
+                                "BE:EK",
+                                "TWBF:EK",
+                                "RO:EK",
+                                "SOTW:EK",
+                                "IIP:EK",
+                                "WW:EK",
+                                "TP:EK",
+                                "WIC:EK",
+                                "",
+                                "GLS:EK"
+                            ],
+                            [
+                                "IE:EK",
+                                "BBT:EK",
+                                "TB:EK",
+                                "SW:EK",
+                                "RL:EK",
+                                "TA:EK",
+                                "GP:EK",
+                                "AN:EK"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "entrance_key_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "WTI:EK",
+                                "BE:EK",
+                                "IE:EK",
+                                "",
+                                "GLS:EK"
+                            ],
+                            [
+                                "PI:EK",
+                                "TWBF:EK",
+                                "BBT:EK"
+                            ],
+                            [
+                                "STP:EK",
+                                "RO:EK",
+                                "TB:EK"
+                            ],
+                            [
+                                "LIB:EK",
+                                "SOTW:EK",
+                                "SW:EK"
+                            ],
+                            [
+                                "JTW:EK",
+                                "IIP:EK",
+                                "RL:EK"
+                            ],
+                            [
+                                "",
+                                "WW:EK",
+                                "TA:EK"
+                            ],
+                            [
+                                "",
+                                "TP:EK",
+                                "GP:EK"
+                            ],
+                            [
+                                "",
+                                "WIC:EK",
+                                "AN:EK"
                             ]
                         ]
                     }
