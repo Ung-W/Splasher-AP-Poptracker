@@ -1,5 +1,6 @@
 require("scripts.autotracking.item_mapping")
 require("scripts.autotracking.location_mapping")
+require("scripts.autotracking.slot_options")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -203,9 +204,31 @@ local function PreOnClear()
     end
 end
 
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('	'):rep(depth)
+        local tabs2 = ('	'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
+
 ---function that gets called when the pack connects to an AP server
 ---@param slot_data? table Slotdata send from AP server for the specific user/slot
 function OnClear(slot_data)
+    
+    print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     MANUAL_CHECKED = false
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then
@@ -248,6 +271,7 @@ function OnClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
+    get_slot_options(slot_data)
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     AutoFill(slot_data)
     -- end

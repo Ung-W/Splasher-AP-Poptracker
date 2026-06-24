@@ -17,7 +17,7 @@
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "setting_grid"
+                                "key": "setting_grid_vertical"
                             }
                         },
                         {
@@ -31,7 +31,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Entrance Keys",
+                            "header": "Entrance Keys (Placeholder)",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
@@ -72,7 +72,7 @@
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "setting_grid"
+                                "key": "setting_grid_horizontal"
                             }
                         },
                         {
@@ -89,7 +89,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Entrance Keys",
+                            "header": "Entrance Keys (Placeholder)",
                             "dock": "top",
                             "content": {
                                 "type": "layout",

@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Splashers Required",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 154,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/Splasher.png",
+        "overlay_background": "#000000",
+        "codes": "opt_splasher"
+    },
+    {
+        "name": "Speedrun Medals",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Speedrun Medals are not included (do nothing for now)",
+                "img": "images/settings/Speedrun (1).png",
+                "codes": "opt_speedrun,opt_speedrun_false"
+            },
+            {
+                "name": "Bronze Medals are required (do nothing for now)",
+                "img": "images/settings/Speedrun (2).png",
+                "codes": "opt_speedrun,opt_speedrun_bronze",
+                "inherit_codes": false
+            },
+            {
+                "name": "Up to Silver Medals are required (do nothing for now)",
+                "img": "images/settings/Speedrun (3).png",
+                "codes": "opt_speedrun,opt_speedrun_silver",
+                "inherit_codes": false
+            },
+            {
+                "name": "Up to Gold Medals are required (do nothing for now)",
+                "img": "images/settings/Speedrun (4).png",
+                "codes": "opt_speedrun,opt_speedrun_gold",
+                "inherit_codes": false
+            },
+            {
+                "name": "Up to Platinum Medals are required (do nothing for now)",
+                "img": "images/settings/Speedrun (5).png",
+                "codes": "opt_speedrun,opt_speedrun_platinum",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gold Splashers",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gold Splashers are not randomized (do nothing for now)",
+                "img": "images/settings/Splasher (7).png",
+                "img_mods": "@disabled",
+                "codes": "opt_gold_splasher,opt_gold_splasher_false"
+            },
+            {
+                "name": "Gold Splashers are randomized (do nothing for now)",
+                "img": "images/settings/Splasher (7).png",
+                "codes": "opt_gold_splasher,opt_gold_splasher_true",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

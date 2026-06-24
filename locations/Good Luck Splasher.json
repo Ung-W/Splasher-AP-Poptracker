@@ -14,13 +14,13 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$splasher_req"
                 ],
                 "sections": [
                     {
                         "name": "Splasher (1)",
                         "access_rules": [
-                            "ProgressivePower_stage3",
+                            "ProgressivePower_stage3,",
                             "Water, StickyPaint, BouncyPaint"
                         ],
                         "visibility_rules": [],
