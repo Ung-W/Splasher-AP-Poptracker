@@ -1,7 +1,7 @@
 {
     "name": "Splasher Archipelago",
     "game_name": "Splasher",
-    "package_version": "1.0.0",
+    "package_version": "0.5.0",
     "package_uid": "splasher_ap",
     "author": "builder_script",
     "variants": {
