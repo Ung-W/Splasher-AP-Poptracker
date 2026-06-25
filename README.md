@@ -9,6 +9,8 @@ This is a Poptracker pack for Splasher's [AP Implementation](https://github.com/
 ### Map Tracker
 
 - Lobby for an overview of your slot
+- - An option to display/hide Speedrun Medals checks depending on your YAML
+- An option to display/hide Golden Splashers checks depending on your YAML
 - Individual levels for the different splashers checks
   - The White Star indicates the start of the level
   - The colored arrows indicates when the levels go off the tracker, where does it pick back up (Black Star in ``14 - Inkorp Express`` achieves the same result)
@@ -23,7 +25,5 @@ This is a Poptracker pack for Splasher's [AP Implementation](https://github.com/
 
 ### In future versions
 
-- An option to display/hide Speedrun Medals checks depending on your YAML (displayed but useless for now)
-- An option to display/hide Golden Splashers checks depending on your YAML (displayed but useless for now)
 - Entrance Lock when implemented by Frisk (for now, placeholder icons)
 - Autotabbing when getting checks in levels
