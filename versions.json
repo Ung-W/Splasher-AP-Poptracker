@@ -1,11 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "0.5.2",
+            "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.5.2/Splasher-AP-Poptracker-0.5.2.zip",
+            "sha256": "6dd4e0e022075ce555b990c77cd453ed6f5082ed119a9f1177b806b72b5dd312",
+            "changelog": [
+                "Settings Patch"
+            ]
+        },
+        {
             "package_version": "0.5.1",
             "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.5.1/Splasher-AP-Poptracker-0.5.1.zip",
             "sha256": "98c98f7ad161da1a2faed7a9cdbeccb0ed85c2616c4f3318be622cf998944139",
             "changelog": [
-                "Initial Release, Check release notes"
+                "Auto-Update Patch"
             ]
         },
         {
