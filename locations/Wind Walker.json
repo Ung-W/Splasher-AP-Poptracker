@@ -78,7 +78,9 @@
                                 "ProgressivePower_stage2",
                                 "Water, StickyPaint"
                             ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "opt_gold_splasher_true"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -107,7 +109,13 @@
                                 "ProgressivePower_stage2",
                                 "Water, StickyPaint"
                             ],
-                        "visibility_rules": [],
+                        
+                        "visibility_rules": [
+                            "opt_speedrun_bronze",
+                            "opt_speedrun_silver",
+                            "opt_speedrun_gold",
+                            "opt_speedrun_platinum"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -116,7 +124,12 @@
                                 "ProgressivePower_stage2",
                                 "Water, StickyPaint"
                             ],
-                        "visibility_rules": [],
+                        
+                        "visibility_rules": [
+                            "opt_speedrun_silver",
+                            "opt_speedrun_gold",
+                            "opt_speedrun_platinum"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -125,7 +138,11 @@
                                 "ProgressivePower_stage2",
                                 "Water, StickyPaint"
                             ],
-                        "visibility_rules": [],
+                        
+                        "visibility_rules": [
+                            "opt_speedrun_gold",
+                            "opt_speedrun_platinum"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -134,7 +151,10 @@
                                 "ProgressivePower_stage2",
                                 "Water, StickyPaint"
                             ],
-                        "visibility_rules": [],
+                        
+                        "visibility_rules": [
+                            "opt_speedrun_platinum"
+                        ],
                         "item_count": 1
                     }
                 ]

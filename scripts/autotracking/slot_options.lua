@@ -1,29 +1,31 @@
 function get_slot_options(slot_data)
 	Tracker:FindObjectForCode('opt_splasher').AcquiredCount = slot_data["splashers_goal"]
+	print("Slot Data Splasher Goal OK")
 	
-    -- to implement this -> visibility rules
-	--[[ if slot_data["include_medals"] ~= nil then
+	if slot_data["include_medals"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_speedrun")
 		local stage = slot_data["include_medals"]
-		if stage >= 4 then
+		if stage >= 5 then
 			stage = 0
 		end
 		if obj then
 			obj.CurrentStage = stage
 		end
+		print("Slot Data Speedrun Medals OK")
+	end
 
-    -- to implement this -> visibility rules
-    --[[ if slot_data["randomize_golden_splashers"] ~= nil then
+
+    if slot_data["randomize_golden_splashers"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_gold_splasher")
 		local state = slot_data["randomize_golden_splashers"]
 		if state then
-			state = 0
-        else
-            state = 1
+			if obj then
+            	obj.CurrentStage = state
+        	end
 		end
-        if obj then
-            obj.CurrentStage = state
-        end ]]
+        
+		print("Slot Data Gold Splashers OK")
+	end
 end
 
 function splasher_req()
