@@ -40,7 +40,7 @@
                     {
                         "name": "Splasher (3)",
                         "access_rules": [
-                            "ProgressivePower_stage1",
+                            "ProgressivePower_stage2",
                             "Water, StickyPaint",
                             "Water, BouncyPaint"
                         ],
