@@ -42,7 +42,7 @@
                         "access_rules": [
                             "ProgressivePower_stage1",
                             "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -52,7 +52,7 @@
                         "access_rules": [
                             "ProgressivePower_stage1",
                             "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -62,7 +62,7 @@
                         "access_rules": [
                             "ProgressivePower_stage1",
                             "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -72,7 +72,7 @@
                         "access_rules": [
                             "ProgressivePower_stage1",
                             "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -82,7 +82,7 @@
                         "access_rules": [
                             "ProgressivePower_stage1",
                             "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1

@@ -31,8 +31,8 @@
                         "name": "Splasher (2)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint",
+                            "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -41,8 +41,8 @@
                         "name": "Splasher (3)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint",
+                            "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -51,8 +51,8 @@
                         "name": "Splasher (4)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint",
+                            "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -61,8 +61,8 @@
                         "name": "Splasher (5)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint",
+                            "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -71,8 +71,8 @@
                         "name": "Splasher (6)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint",
+                            "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -92,8 +92,8 @@
                         "name": "Clear",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "BouncyPaint"
+                            "Water, BouncyPaint",
+                            "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
