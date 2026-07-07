@@ -60,3 +60,46 @@ function splasher_req()
 
 	return splasher_goal <= nb_splashers
 end
+
+function key(entrance, zone)
+	local key_cond = Tracker:FindObjectForCode("opt_ek").CurrentStage
+
+	print ("key name :" .. entrance .. " / " .. zone)
+
+	if key_cond > 0 then
+		if key_cond == 1 then --[[ zone keys ]]
+			print("Using zone keys")
+			print("key state :" .. tostring(Tracker:FindObjectForCode(zone).Active))
+			return Tracker:FindObjectForCode(zone).Active
+		elseif key_cond == 2 then --[[ entrance keys ]]
+			print("Using entrance keys")
+			print("key state :" .. tostring(Tracker:FindObjectForCode(entrance).Active))
+			return Tracker:FindObjectForCode(entrance).Active
+		end
+	else
+		print("No keys required")
+		return false
+	end
+end
+
+function speed_key(entrance, zone)
+	local key_cond = Tracker:FindObjectForCode("opt_ek").CurrentStage
+	local speedkey_cond = Tracker:FindObjectForCode("opt_ek_speedrun").CurrentStage
+	
+	print ("speedkey name :" .. entrance .. " / " .. zone)
+
+	if key_cond > 0 and speedkey_cond == 1 then
+		if key_cond == 1 then --[[ zone keys ]]
+			print("Using speedrun zone keys")
+			print("key state :" .. Tracker:FindObjectForCode(zone).Active)
+			return Tracker:FindObjectForCode(zone).Active
+		elseif key_cond == 2 then --[[ entrance keys ]]
+			print("Using speedrun entrance keys")
+			print("key state :" .. tostring(Tracker:FindObjectForCode(entrance).Active))
+			return Tracker:FindObjectForCode(entrance).Active
+		end
+	else
+		print("No speedrun keys required")
+		return false
+	end
+end

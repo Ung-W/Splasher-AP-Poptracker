@@ -88,44 +88,44 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "RH:ZK",
-                                "PI:EK",
-                                "STP:EK",
-                                "TWBF:EK",
+                                "RH-ZK",
+                                "PI-EK",
+                                "STP-EK",
+                                "TWBF-EK",
                                 "",
                                 "",
-                                "IO:ZK",
-                                "WW:EK",
-                                "IE:EK",
-                                "SW:EK"
+                                "IO-ZK",
+                                "WW-EK",
+                                "IE-EK",
+                                "SW-EK"
                             ],
                             [
-                                "WP:ZK",
-                                "JTW:EK",
-                                "BE:EK",
-                                "SOTW:EK",
-                                "WIC:EK",
+                                "WP-ZK",
+                                "JTW-EK",
+                                "BE-EK",
+                                "SOTW-EK",
+                                "WIC-EK",
                                 "",
-                                "RP:ZK",
-                                "RO:EK",
-                                "TP:EK",
-                                "RL:EK",
-                                "GP:EK",
+                                "RP-ZK",
+                                "RO-EK",
+                                "TP-EK",
+                                "RL-EK",
+                                "GP-EK",
                                 "",
-                                "DO:ZK",
-                                "GLS:EK"
+                                "DO-ZK",
+                                "GLS-EK"
                             ],
                             [
-                                "FP:ZK",
-                                "LIB:EK",
-                                "IIP:EK",
-                                "BBT:EK",
+                                "FP-ZK",
+                                "LIB-EK",
+                                "IIP-EK",
+                                "BBT-EK",
                                 "",
                                 "",
-                                "TH:ZK",
-                                "TB:EK",
-                                "TA:EK",
-                                "AN:EK"
+                                "TH-ZK",
+                                "TB-EK",
+                                "TA-EK",
+                                "AN-EK"
                             ]
                         ]
                     }
@@ -153,37 +153,37 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "RH:ZK",
+                                "RH-ZK",
                                 "",
-                                "WP:ZK",
+                                "WP-ZK",
                                 "",
-                                "FP:ZK"
+                                "FP-ZK"
                             ],
                             [
-                                "PI:EK",
+                                "PI-EK",
                                 "",
-                                "JTW:EK",
+                                "JTW-EK",
                                 "",
-                                "LIB:EK"
+                                "LIB-EK"
                             ],
                             [
-                                "STP:EK",
+                                "STP-EK",
                                 "",
-                                "BE:EK",
+                                "BE-EK",
                                 "",
-                                "IIP:EK"
+                                "IIP-EK"
                             ],
                             [
-                                "TWBF:EK",
+                                "TWBF-EK",
                                 "",
-                                "SOTW:EK",
+                                "SOTW-EK",
                                 "",
-                                "BBT:EK"
+                                "BBT-EK"
                             ],
                             [
                                 "",
                                 "",
-                                "WIC:EK",
+                                "WIC-EK",
                                 "",
                                 ""
                             ],
@@ -195,37 +195,37 @@
                                 ""
                             ],
                             [
-                                "IO:ZK",
+                                "IO-ZK",
                                 "",
-                                "RP:ZK",
+                                "RP-ZK",
                                 "",
-                                "TH:ZK"
+                                "TH-ZK"
                             ],
                             [
-                                "WW:EK",
+                                "WW-EK",
                                 "",
-                                "RO:EK",
+                                "RO-EK",
                                 "",
-                                "TB:EK"
+                                "TB-EK"
                             ],
                             [
-                                "IE:EK",
+                                "IE-EK",
                                 "",
-                                "TP:EK",
+                                "TP-EK",
                                 "",
-                                "TA:EK"
+                                "TA-EK"
                             ],
                             [
-                                "SW:EK",
+                                "SW-EK",
                                 "",
-                                "RL:EK",
+                                "RL-EK",
                                 "",
-                                "AN:EK"
+                                "AN-EK"
                             ],
                             [
                                 "",
                                 "",
-                                "GP:EK",
+                                "GP-EK",
                                 "",
                                 ""
                             ],
@@ -238,9 +238,9 @@
                             ],
                             [
                                 "",
-                                "DO:ZK",
+                                "DO-ZK",
                                 "",
-                                "GLS:EK",
+                                "GLS-EK",
                                 ""
                             ]
                         ]
