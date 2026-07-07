@@ -115,7 +115,7 @@
                         "access_rules": [
                             "ProgressivePower_stage2",
                             "Water, StickyPaint",
-                            "StickyPaint, [BouncyPaint]"
+                            "[Water], StickyPaint, BouncyPaint"
                         ],
                         "visibility_rules": [
                             "opt_speedrun_bronze",
@@ -130,7 +130,7 @@
                         "access_rules": [
                             "ProgressivePower_stage2",
                             "Water, StickyPaint",
-                            "StickyPaint, [BouncyPaint]"
+                            "[Water], StickyPaint, BouncyPaint"
                         ],
                         "visibility_rules": [
                             "opt_speedrun_silver",
@@ -144,7 +144,7 @@
                         "access_rules": [
                             "ProgressivePower_stage2",
                             "Water, StickyPaint",
-                            "StickyPaint, [BouncyPaint]"
+                            "[Water], StickyPaint, BouncyPaint"
                         ],
                         "visibility_rules": [
                             "opt_speedrun_gold",
@@ -157,7 +157,7 @@
                         "access_rules": [
                             "ProgressivePower_stage2",
                             "Water, StickyPaint",
-                            "StickyPaint, [BouncyPaint]"
+                            "[Water], StickyPaint, BouncyPaint"
                         ],
                         "visibility_rules": [
                             "opt_speedrun_platinum"
