@@ -26,6 +26,29 @@ function get_slot_options(slot_data)
         
 		print("Slot Data Gold Splashers OK")
 	end
+
+	if slot_data["include_keys"] ~= nil then
+		local obj = Tracker:FindObjectForCode("opt_ek")
+		local stage = slot_data["include_keys"]
+		if stage >= 3 then
+			stage = 0
+		end
+		if obj then
+			obj.CurrentStage = stage
+		end
+		print("Slot Data Entrance Keys OK")
+
+		if slot_data["include_speedrun_keys"] ~= nil then
+			local obj = Tracker:FindObjectForCode("opt_ek_speedrun")
+			local state = slot_data["include_speedrun_keys"]
+			if state then
+				if obj then
+					obj.CurrentStage = state
+				end
+			end
+			print("Slot Data Speedrun Keys OK")
+		end
+	end
 end
 
 function splasher_req()

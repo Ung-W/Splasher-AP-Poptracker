@@ -31,7 +31,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Entrance Keys (Placeholder)",
+                            "header": "Entrance / Zone Keys",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
@@ -89,7 +89,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Entrance Keys (Placeholder)",
+                            "header": "Entrance / Zone Keys",
                             "dock": "top",
                             "content": {
                                 "type": "layout",

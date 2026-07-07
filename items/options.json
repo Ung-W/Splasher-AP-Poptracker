@@ -7,7 +7,7 @@
         "increment": 1,
         "initial_quantity": 0,
         "allow_disabled": true,
-        "img": "/images/items/Splasher.png",
+        "img": "/images/items/medal_splasher.png",
         "overlay_background": "#000000",
         "codes": "opt_splasher"
     },
@@ -64,6 +64,50 @@
                 "name": "Gold Splashers are randomized",
                 "img": "images/settings/Splasher (7).png",
                 "codes": "opt_gold_splasher,opt_gold_splasher_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Entrance Keys",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Levels aren't split by keys",
+                "img": "images/settings/Lock.png",
+                "codes": "opt_ek,opt_ek_false"
+            },
+            {
+                "name": "Levels are split by Zone keys",
+                "img": "images/settings/gold_door.png",
+                "codes": "opt_ek,opt_ek_zone",
+                "inherit_codes": false
+            },
+            {
+                "name": "Levels are split by Individual keys",
+                "img": "images/settings/normal_door.png",
+                "codes": "opt_ek,opt_ek_level",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Speedrun Keys",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Speedrun levels are unlocked with the normal levels",
+                "img": "images/settings/Lock.png",
+                "codes": "opt_ek_speedrun,opt_ek_speedrun_false"
+            },
+            {
+                "name": "Speedrun levels need their own keys ",
+                "img": "images/settings/flag.png",
+                "codes": "opt_ek_speedrun,opt_ek_speedrun_true",
                 "inherit_codes": false
             }
         ]

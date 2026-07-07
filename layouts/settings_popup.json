@@ -19,13 +19,13 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "opt_splasher"
-                            ],
-                            [
-                                "opt_speedrun"
+                                "opt_splasher", "opt_ek"
                             ],
                             [
                                 "opt_gold_splasher"
+                            ],
+                            [
+                                "opt_speedrun", "opt_ek_speedrun"
                             ]
                         ]
                     }
@@ -53,7 +53,7 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "", "opt_speedrun", "opt_gold_splasher", "opt_splasher", ""
+                                "opt_ek", "opt_speedrun" ,"opt_gold_splasher", "opt_splasher", "opt_ek_speedrun"
                             ]
                         ]
                     }
