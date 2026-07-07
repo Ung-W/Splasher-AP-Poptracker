@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$key|STP-EK|RH-ZK"
                 ],
                 "sections": [
                     {
@@ -100,16 +100,15 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
-                    ],
-                    "sections": [
+                    "$speed_key|STP_TA-EK|RH_TA-ZK"
+                ],
+                "sections": [
                     {
                         "name": "Bronze Medal",
                         "access_rules": [
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_bronze",
                             "opt_speedrun_silver",
@@ -124,7 +123,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_silver",
                             "opt_speedrun_gold",
@@ -138,7 +136,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_gold",
                             "opt_speedrun_platinum"
@@ -151,7 +148,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_platinum"
                         ],

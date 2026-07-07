@@ -2,7 +2,7 @@
     {
         "name": "Water Is Coming (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/WICEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "WIC_TA-EK"
@@ -18,7 +18,7 @@
     {
         "name": "Apocalink Now (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/ANEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "AN_TA-EK"
@@ -58,7 +58,7 @@
     {
         "name": "Reception Hub (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/RHZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "RH_TA-ZK"
@@ -82,7 +82,7 @@
     {
         "name": "Big Bounce Theory (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/BBTEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "BBT_TA-EK"
@@ -98,7 +98,7 @@
     {
         "name": "Docteur's Office (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/DOZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "DO_TA-ZK"
@@ -114,7 +114,7 @@
     {
         "name": "Stick to The Plan (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/STPEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "STP_TA-EK"
@@ -154,7 +154,7 @@
     {
         "name": "Inkorp Express (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/IEEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "IE_TA-EK"
@@ -176,7 +176,7 @@
     {
         "name": "Troopers Please (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/TPEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TP_TA-EK"
@@ -184,7 +184,7 @@
     {
         "name": "Toxink Hell (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/THZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TH_TA-ZK"
@@ -200,7 +200,7 @@
     {
         "name": "Storm Wind (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/SWEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "SW_TA-EK"
@@ -224,7 +224,7 @@
     {
         "name": "Ink In Park (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/IIPEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "IIP_TA-EK"
@@ -272,7 +272,7 @@
     {
         "name": "Wind Walker (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/WWEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "WW_TA-EK"
@@ -280,7 +280,7 @@
     {
         "name": "Toxink Bubbles (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/TBEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TB_TA-EK"
@@ -296,7 +296,7 @@
     {
         "name": "Water Pool (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/WPZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "WP_TA-ZK"
@@ -304,7 +304,7 @@
     {
         "name": "Potatoes Ink (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/PIEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "PI_TA-EK"
@@ -312,7 +312,7 @@
     {
         "name": "A Bad Encounter (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/BEEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "BE_TA-EK"
@@ -358,7 +358,7 @@
     {
         "name": "Let It Bounce (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/LIBEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "LIB_TA-EK"
@@ -366,7 +366,7 @@
     {
         "name": "Ray Man Paradise (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/RPZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "RP_TA-ZK"
@@ -390,7 +390,7 @@
     {
         "name": "Ray Man Origin (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/ROEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "RO_TA-EK"
@@ -406,7 +406,7 @@
     {
         "name": "Good Luck Splasher (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/GLSEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "GLS_TA-EK"
@@ -414,7 +414,7 @@
     {
         "name": "Stick On The Water (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/SOTWEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "SOTW_TA-EK"
@@ -430,7 +430,7 @@
     {
         "name": "Ray Man Legend (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/RLEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "RL_TA-EK"
@@ -438,7 +438,7 @@
     {
         "name": "Inkorp Outskirts (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/IOZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "IO_TA-ZK"
@@ -454,7 +454,7 @@
     {
         "name": "The Glados Principle (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/GPEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "GP_TA-EK"
@@ -462,7 +462,7 @@
     {
         "name": "Fun Park (Time Attack): Zone Key",
         "type": "toggle",
-        "img": "images/items/FPZK_TA.png",
+        "img": "images/items/ZK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "FP_TA-ZK"
@@ -502,7 +502,7 @@
     {
         "name": "Toxink Avenger (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/TAEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TA_TA-EK"
@@ -510,7 +510,7 @@
     {
         "name": "There Will Be Fries (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/TWBFEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "TWBF_TA-EK"
@@ -518,7 +518,7 @@
     {
         "name": "Jump On The Water (Time Attack): Entrance Key",
         "type": "toggle",
-        "img": "images/items/JTWEK_TA.png",
+        "img": "images/items/EK_TA.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "JTW_TA-EK"

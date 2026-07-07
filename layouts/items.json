@@ -248,5 +248,186 @@
                 ]
             }
         ]
+    },
+    "speedrun_key_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "RH_TA-ZK",
+                                "PI_TA-EK",
+                                "STP_TA-EK",
+                                "TWBF_TA-EK",
+                                "",
+                                "",
+                                "IO_TA-ZK",
+                                "WW_TA-EK",
+                                "IE_TA-EK",
+                                "SW_TA-EK"
+                            ],
+                            [
+                                "WP_TA-ZK",
+                                "JTW_TA-EK",
+                                "BE_TA-EK",
+                                "SOTW_TA-EK",
+                                "WIC_TA-EK",
+                                "",
+                                "RP_TA-ZK",
+                                "RO_TA-EK",
+                                "TP_TA-EK",
+                                "RL_TA-EK",
+                                "GP_TA-EK",
+                                "",
+                                "DO_TA-ZK",
+                                "GLS_TA-EK"
+                            ],
+                            [
+                                "FP_TA-ZK",
+                                "LIB_TA-EK",
+                                "IIP_TA-EK",
+                                "BBT_TA-EK",
+                                "",
+                                "",
+                                "TH_TA-ZK",
+                                "TB_TA-EK",
+                                "TA_TA-EK",
+                                "AN_TA-EK"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "speedrun_key_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "RH_TA-ZK",
+                                "",
+                                "WP_TA-ZK",
+                                "",
+                                "FP_TA-ZK"
+                            ],
+                            [
+                                "PI_TA-EK",
+                                "",
+                                "JTW_TA-EK",
+                                "",
+                                "LIB_TA-EK"
+                            ],
+                            [
+                                "STP_TA-EK",
+                                "",
+                                "BE_TA-EK",
+                                "",
+                                "IIP_TA-EK"
+                            ],
+                            [
+                                "TWBF_TA-EK",
+                                "",
+                                "SOTW_TA-EK",
+                                "",
+                                "BBT_TA-EK"
+                            ],
+                            [
+                                "",
+                                "",
+                                "WIC_TA-EK",
+                                "",
+                                ""
+                            ],
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            [
+                                "IO_TA-ZK",
+                                "",
+                                "RP_TA-ZK",
+                                "",
+                                "TH_TA-ZK"
+                            ],
+                            [
+                                "WW_TA-EK",
+                                "",
+                                "RO_TA-EK",
+                                "",
+                                "TB_TA-EK"
+                            ],
+                            [
+                                "IE_TA-EK",
+                                "",
+                                "TP_TA-EK",
+                                "",
+                                "TA_TA-EK"
+                            ],
+                            [
+                                "SW_TA-EK",
+                                "",
+                                "RL_TA-EK",
+                                "",
+                                "AN_TA-EK"
+                            ],
+                            [
+                                "",
+                                "",
+                                "GP_TA-EK",
+                                "",
+                                ""
+                            ],
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            [
+                                "",
+                                "DO_TA-ZK",
+                                "",
+                                "GLS_TA-EK",
+                                ""
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

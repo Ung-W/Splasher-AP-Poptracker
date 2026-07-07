@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$key|LIB-EK|FP-ZK"
                 ],
                 "sections": [
                     {
@@ -101,7 +101,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$speed_key|LIB_TA-EK|FP_TA-ZK"
                 ],
                 "sections": [
                     {
@@ -110,7 +110,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_bronze",
                             "opt_speedrun_silver",
@@ -125,7 +124,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_silver",
                             "opt_speedrun_gold",
@@ -139,7 +137,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_gold",
                             "opt_speedrun_platinum"
@@ -152,7 +149,6 @@
                             "ProgressivePower_stage1",
                             "Water"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_platinum"
                         ],

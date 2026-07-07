@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$key|TB-EK|TH-ZK"
                 ],
                 "sections": [
                     {
@@ -99,7 +99,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$speed_key|TB_TA-EK|TH_TA-ZK"
                 ],
                 "sections": [
                     {
@@ -108,7 +108,6 @@
                             "ProgressivePower_stage3",
                             "Water, StickyPaint, BouncyPaint"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_bronze",
                             "opt_speedrun_silver",
@@ -123,7 +122,6 @@
                             "ProgressivePower_stage3",
                             "Water, StickyPaint, BouncyPaint"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_silver",
                             "opt_speedrun_gold",
@@ -137,7 +135,6 @@
                             "ProgressivePower_stage3",
                             "Water, StickyPaint, BouncyPaint"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_gold",
                             "opt_speedrun_platinum"
@@ -150,7 +147,6 @@
                             "ProgressivePower_stage3",
                             "Water, StickyPaint, BouncyPaint"
                         ],
-                        
                         "visibility_rules": [
                             "opt_speedrun_platinum"
                         ],

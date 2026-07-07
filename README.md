@@ -9,7 +9,7 @@ This is a Poptracker pack for Splasher's [AP Implementation](https://github.com/
 ### Map Tracker
 
 - Lobby for an overview of your slot
-- - An option to display/hide Speedrun Medals checks depending on your YAML
+- An option to display/hide Speedrun Medals checks depending on your YAML
 - An option to display/hide Golden Splashers checks depending on your YAML
 - Individual levels for the different splashers checks
   - The White Star indicates the start of the level
@@ -22,8 +22,8 @@ This is a Poptracker pack for Splasher's [AP Implementation](https://github.com/
 - Numbers of Splashers received
 - Numbers of Splashers required for GO mode
 - Different Fluid (Water, Sticky, Bouncy) received, Individual or Progressive depending on your YAML
+- Entrance / Zone Keys : Technically can just look at the lobby to see what's in logic, but this show all the groups (gold doors) and what levels (grey doors) are included in them
 
-### In future versions
+### In future versions (maybe)
 
-- Entrance Lock when implemented by Frisk (for now, placeholder icons)
 - Autotabbing when getting checks in levels

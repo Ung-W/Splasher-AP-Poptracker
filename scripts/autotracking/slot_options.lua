@@ -71,7 +71,7 @@ function key(entrance, zone)
 			return Tracker:FindObjectForCode(entrance).Active
 		end
 	else
-		return false
+		return true
 	end
 end
 
@@ -86,6 +86,6 @@ function speed_key(entrance, zone)
 			return Tracker:FindObjectForCode(entrance).Active
 		end
 	else
-		return false
+		return true
 	end
 end
