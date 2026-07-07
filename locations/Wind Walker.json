@@ -21,8 +21,8 @@
                         "name": "Splasher (1)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water",
-                            "BouncyPaint"
+                            "Water, StickyPaint",
+                            "StickyPaint, BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1

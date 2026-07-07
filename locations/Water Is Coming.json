@@ -51,7 +51,8 @@
                         "name": "Splasher (4)",
                         "access_rules": [
                             "ProgressivePower_stage2",
-                            "Water, StickyPaint"
+                            "Water, StickyPaint",
+                            "Water, [StickyPaint], BouncyPaint"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -60,6 +61,7 @@
                         "name": "Splasher (5)",
                         "access_rules": [
                             "ProgressivePower_stage2",
+                            "Water, BouncyPaint",
                             "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
@@ -69,6 +71,7 @@
                         "name": "Splasher (6)",
                         "access_rules": [
                             "ProgressivePower_stage2",
+                            "Water, BouncyPaint",
                             "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
@@ -89,6 +92,7 @@
                         "name": "Clear",
                         "access_rules": [
                             "ProgressivePower_stage2",
+                            "Water, BouncyPaint",
                             "Water, StickyPaint"
                         ],
                         "visibility_rules": [],
