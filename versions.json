@@ -1,11 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "0.7.0",
+            "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.6.0/Splasher-AP-Poptracker-0.6.0.zip",
+            "sha256": "460529b5588cee3b2af4ddc967f8b37c3f237f298b60d92b80e3e9572451b5ec",
+            "changelog": [
+                "Adjustments Release"
+            ]
+        },
+        {
             "package_version": "0.6.0",
             "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.6.0/Splasher-AP-Poptracker-0.6.0.zip",
             "sha256": "655e893a6d9aa553ffbe8c91d078d77e7ce52ed3fdcba028674497f04f9e2c7c",
             "changelog": [
-                "Settings Patch"
+                "Entrance / Zone Key Release"
             ]
         },
         {
@@ -13,7 +21,7 @@
             "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.5.3/Splasher-AP-Poptracker-0.5.3.zip",
             "sha256": "705a0d060e5cbd2221596ed8987a5022837a97c96e0d81bc2f5b8d452310389b",
             "changelog": [
-                "Settings Patch"
+                "Logic Patch"
             ]
         },
         {
