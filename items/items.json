@@ -40,7 +40,7 @@
         "codes": "TB-EK"
     },
     {
-        "name": "Water",
+        "name": "Water Gun",
         "type": "toggle",
         "img": "images/items/Water.png",
         "initial_active_state": false,
@@ -396,7 +396,7 @@
         "codes": "RO_TA-EK"
     },
     {
-        "name": "Sticky Paint",
+        "name": "Stickink Gun",
         "type": "toggle",
         "img": "images/items/StickyPaint.png",
         "initial_active_state": false,
@@ -492,7 +492,7 @@
         "codes": "WW-EK"
     },
     {
-        "name": "Bouncy Paint",
+        "name": "Bouncink Gun",
         "type": "toggle",
         "img": "images/items/BouncyPaint.png",
         "initial_active_state": false,
