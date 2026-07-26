@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "0.7.0",
-            "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.6.0/Splasher-AP-Poptracker-0.7.0.zip",
+            "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.7.0/Splasher-AP-Poptracker-0.7.0.zip",
             "sha256": "460529b5588cee3b2af4ddc967f8b37c3f237f298b60d92b80e3e9572451b5ec",
             "changelog": [
                 "Adjustments Release"
