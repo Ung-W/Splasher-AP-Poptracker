@@ -312,6 +312,15 @@ function OnItem(index, item_id, item_name, player_number)
         --print(string.format("OnItem: could not find item mapping for id %s", item_id))
         return
     end
+
+    if item_name == "Water Gun" then
+        waterIcon()
+    end
+
+    if item_name == "Progressive Power Unlock" then
+        powerIcon()
+    end
+
     for _, item_pair in pairs(item) do
         local item_code = item_pair[1]
         local item_type = item_pair[2]

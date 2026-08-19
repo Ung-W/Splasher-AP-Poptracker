@@ -1,3 +1,5 @@
+local prog_both = false
+
 function get_slot_options(slot_data)
 	Tracker:FindObjectForCode('opt_splasher').AcquiredCount = slot_data["splashers_goal"]
 	print("Slot Data Splasher Goal OK")
@@ -13,7 +15,6 @@ function get_slot_options(slot_data)
 		end
 		print("Slot Data Speedrun Medals OK")
 	end
-
 
     if slot_data["randomize_golden_splashers"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_gold_splasher")
@@ -48,6 +49,18 @@ function get_slot_options(slot_data)
 			end
 			print("Slot Data Speedrun Keys OK")
 		end
+	end
+
+	if slot_data["randomize_powers"] ~= nil then
+		prog_both = false
+		local state = slot_data["randomize_powers"]
+		if state == 3 then
+			if slot_data["progressive_water"] == 0 then
+				print("Powers are progressive and water is not progressive")
+				prog_both = true
+			end
+		end
+		print("Slot Data Progressive Settings OK")
 	end
 end
 
@@ -88,4 +101,39 @@ function speed_key(entrance, zone)
 	else
 		return true
 	end
+end
+
+function waterIcon()
+	local progWater = Tracker:FindObjectForCode("ProgressiveWater")
+	progWater.CurrentStage = 2
+end
+
+function powerIcon()
+	if prog_both then
+		local progPower = Tracker:FindObjectForCode("ProgressivePower")
+		if progPower.CurrentStage == 0 then
+			progPower.CurrentStage = 2
+		end
+	end
+end
+
+function hasPollutedWater()
+	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
+	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
+
+	return water_cond > 0 or progWater_state == 1
+end
+
+function hasCleanWater()
+	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
+	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
+
+	return water_cond > 0 or progWater_state == 2
+end
+
+function hasSpeedWater()
+	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
+	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
+
+	return water_cond > 0 or progWater_state == 3
 end

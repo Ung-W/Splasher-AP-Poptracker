@@ -48,6 +48,34 @@
         "codes": "Water"
     },
     {
+        "name": "Progressive Water",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "initial_active_state": true,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Polluted Water",
+                "inherit_codes": true,
+                "img": "/images/items/WaterP.png",
+                "codes": "ProgressiveWater, ProgressiveWater_stage1"
+            },
+            {
+                "name": "Water Gun",
+                "inherit_codes": true,
+                "img": "/images/items/WaterC.png",
+                "codes": "ProgressiveWater_stage2"
+            },
+            {
+                "name": "Speedink",
+                "inherit_codes": true,
+                "img": "/images/items/WaterS.png",
+                "codes": "ProgressiveWater_stage3"
+            }
+        ]
+    },
+    {
         "name": "bodyaches",
         "type": "toggle",
         "img": "images/items/bodyaches.png",
@@ -532,22 +560,34 @@
         "overlay_align": "right",
         "stages": [
             {
+                "name": "Progressive Fluid PW",
+                "inherit_codes": true,
+                "img": "/images/items/ProgressivePower11.png",
+                "codes": "ProgressivePower, ProgressivePower_stage1"
+            },
+            {
+                "name": "Progressive Fluid CW",
+                "inherit_codes": true,
+                "img": "/images/items/ProgressivePower12.png",
+                "codes": "ProgressivePower_stage2"
+            },
+            {
                 "name": "Progressive Fluid W",
                 "inherit_codes": true,
-                "img": "/images/items/ProgressivePower1.png",
-                "codes": "ProgressivePower, ProgressivePower_stage1"
+                "img": "/images/items/ProgressivePower13.png",
+                "codes": "ProgressivePower_stage3"
             },
             {
                 "name": "Progressive Fluid WS",
                 "inherit_codes": true,
                 "img": "/images/items/ProgressivePower2.png",
-                "codes": "ProgressivePower_stage2"
+                "codes": "ProgressivePower_stage4"
             },
             {
                 "name": "Progressive Fluid WSB",
                 "inherit_codes": true,
                 "img": "/images/items/ProgressivePower3.png",
-                "codes": "ProgressivePower_stage3"
+                "codes": "ProgressivePower_stage5"
             }
         ]
     },

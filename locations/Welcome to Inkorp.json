@@ -57,7 +57,7 @@
                         "name": "Splasher (6)",
                         "access_rules": [
                             "ProgressivePower_stage1",
-                            "Water"
+                            "$hasCleanWater"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -66,7 +66,7 @@
                         "name": "Splasher (Gold)",
                         "access_rules": [
                             "ProgressivePower_stage1",
-                            "Water"
+                            "$hasCleanWater"
                         ],
                         "visibility_rules": [
                             "opt_gold_splasher_true"
@@ -77,7 +77,7 @@
                         "name": "Clear",
                         "access_rules": [
                             "ProgressivePower_stage1",
-                            "Water"
+                            "$hasCleanWater"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -90,15 +90,13 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "ProgressivePower_stage1",
+                    "$hasCleanWater"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage1",
-                            "Water"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_bronze",
                             "opt_speedrun_silver",
@@ -109,10 +107,7 @@
                     },
                     {
                         "name": "Silver Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage1",
-                            "Water"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_silver",
                             "opt_speedrun_gold",
@@ -122,10 +117,7 @@
                     },
                     {
                         "name": "Gold Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage1",
-                            "Water"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_gold",
                             "opt_speedrun_platinum"
@@ -134,10 +126,7 @@
                     },
                     {
                         "name": "Platinum Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage1",
-                            "Water"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_platinum"
                         ],
