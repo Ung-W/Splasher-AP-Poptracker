@@ -1,3 +1,4 @@
+local prog_pow = false
 local prog_both = false
 
 function get_slot_options(slot_data)
@@ -52,9 +53,11 @@ function get_slot_options(slot_data)
 	end
 
 	if slot_data["randomize_powers"] ~= nil then
+		prog_pow = false
 		prog_both = false
 		local state = slot_data["randomize_powers"]
 		if state == 3 then
+			prog_pow = true
 			if slot_data["progressive_water"] == 0 then
 				print("Powers are progressive and water is not progressive")
 				prog_both = true
@@ -121,14 +124,18 @@ function hasPollutedWater()
 	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
 	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
 
-	return water_cond > 0 or progWater_state == 1
+	return water_cond > 0 or progWater_state >= 1
 end
 
 function hasCleanWater()
 	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
 	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
 
-	return water_cond > 0 or progWater_state == 2
+	
+	local sticky_cond = Tracker:FindObjectForCode("StickyPaint").AcquiredCount
+	local bouncy_cond = Tracker:FindObjectForCode("BouncyPaint").AcquiredCount
+
+	return water_cond > 0 or progWater_state >= 2 or (progWater_state == 1 and (sticky_cond > 0 or bouncy_cond > 0))
 end
 
 function hasSpeedWater()
@@ -136,4 +143,24 @@ function hasSpeedWater()
 	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
 
 	return water_cond > 0 or progWater_state == 3
+end
+
+function chkPower(water_state, sticky_state, bouncy_state)
+	local sticky_chk = Tracker:FindObjectForCode("StickyPaint").AcquiredCount
+	local bouncy_chk = Tracker:FindObjectForCode("BouncyPaint").AcquiredCount
+
+	return water_state
+		and sticky_chk >= sticky_state
+		and bouncy_chk >= bouncy_state
+end
+
+function chkPowerProg(withProgW, withoutProgW)
+	if prog_pow then
+		local progPow_chk = Tracker:FindObjectForCode("ProgressivePower").AcquiredCount
+		if prog_both then
+			return progPow_chk >= withProgW
+		end
+		return progPow_chk >= withoutProgW
+	end
+	return false
 end
