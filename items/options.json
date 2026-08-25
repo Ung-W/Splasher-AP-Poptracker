@@ -105,9 +105,49 @@
                 "codes": "opt_ek_speedrun,opt_ek_speedrun_false"
             },
             {
-                "name": "Speedrun levels need their own keys ",
+                "name": "Speedrun levels need their own keys",
                 "img": "images/settings/flag.png",
                 "codes": "opt_ek_speedrun,opt_ek_speedrun_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Progressive Powers",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Powers are not Progressive",
+                "img": "images/items/ProgressivePower3.png",
+                "img_mods": "@disabled",
+                "codes": "opt_prog_powers,opt_prog_powers_false"
+            },
+            {
+                "name": "Powers are Progressive",
+                "img": "images/items/ProgressivePower3.png",
+                "codes": "opt_prog_powers,opt_prog_powers_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Progressive Water",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Water is not Progressive",
+                "img": "images/items/ProgressivePower13.png",
+                "img_mods": "@disabled",
+                "codes": "opt_prog_water,opt_prog_water_false"
+            },
+            {
+                "name": "Water is Progressive",
+                "img": "images/items/ProgressivePower13.png",
+                "codes": "opt_prog_water,opt_prog_water_true",
                 "inherit_codes": false
             }
         ]

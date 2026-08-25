@@ -11,6 +11,17 @@
                 "content": [
                     {
                         "type": "layout",
+                        "header": "Settings",
+                        "key": "setting_grid_vertical"
+                    },
+                    {
+                        "type": "layout",
+                        "header": "Progressive Options",
+                        "key": "prog_grid_vertical"
+                    },
+                    {
+                        "type": "layout",
+                        "header": "Items",
                         "key": "shared_item_grid_vertical"
                     }
                 ]

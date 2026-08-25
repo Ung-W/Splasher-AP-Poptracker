@@ -1,4 +1,28 @@
 {
+    "settings_popup": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "setting_grid_vertical"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Progressive",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "prog_grid_vertical"
+                }
+            }
+        ]
+    },
     "tracker_default": {
         "type": "container",
         "background": "#00000000",

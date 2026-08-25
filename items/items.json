@@ -50,7 +50,7 @@
     {
         "name": "Progressive Water",
         "type": "progressive",
-        "loop": true,
+        "loop": false,
         "initial_stage_idx": 0,
         "initial_active_state": true,
         "overlay_align": "right",
@@ -425,11 +425,19 @@
     },
     {
         "name": "Stickink Gun",
-        "type": "toggle",
-        "img": "images/items/StickyPaint.png",
-        "initial_active_state": false,
+        "type": "progressive",
+        "loop": false,
+        "initial_stage_idx": 0,
+        "initial_active_state": true,
         "overlay_align": "right",
-        "codes": "StickyPaint"
+        "stages": [
+            {
+                "name": "Stickink Gun",
+                "inherit_codes": true,
+                "img": "/images/items/StickyPaint.png",
+                "codes": "StickyPaint, StickyPaint_stage1"
+            }
+        ]
     },
     {
         "name": "Good Luck Splasher (Time Attack): Entrance Key",
@@ -521,11 +529,19 @@
     },
     {
         "name": "Bouncink Gun",
-        "type": "toggle",
-        "img": "images/items/BouncyPaint.png",
-        "initial_active_state": false,
+        "type": "progressive",
+        "loop": false,
+        "initial_stage_idx": 0,
+        "initial_active_state": true,
         "overlay_align": "right",
-        "codes": "BouncyPaint"
+        "stages": [
+            {
+                "name": "Bouncink Gun",
+                "inherit_codes": true,
+                "img": "/images/items/BouncyPaint.png",
+                "codes": "BouncyPaint, BouncyPaint_stage1"
+            }
+        ]
     },
     {
         "name": "Toxink Avenger (Time Attack): Entrance Key",
@@ -554,7 +570,7 @@
     {
         "name": "Progressive Power",
         "type": "progressive",
-        "loop": true,
+        "loop": false,
         "initial_stage_idx": 0,
         "initial_active_state": true,
         "overlay_align": "right",

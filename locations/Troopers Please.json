@@ -20,9 +20,9 @@
                     {
                         "name": "Splasher (1)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, StickyPaint",
-                            "Water, BouncyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -30,9 +30,9 @@
                     {
                         "name": "Splasher (2)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, BouncyPaint",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -40,9 +40,9 @@
                     {
                         "name": "Splasher (3)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, BouncyPaint",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|0|1",
+                            "$chkPower|2|1|0"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -50,9 +50,9 @@
                     {
                         "name": "Splasher (4)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, BouncyPaint",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -60,9 +60,9 @@
                     {
                         "name": "Splasher (5)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, BouncyPaint",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -70,9 +70,9 @@
                     {
                         "name": "Splasher (6)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, BouncyPaint",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -80,8 +80,8 @@
                     {
                         "name": "Splasher (Gold)",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0"
                         ],
                         "visibility_rules": [
                             "opt_gold_splasher_true"
@@ -91,9 +91,9 @@
                     {
                         "name": "Clear",
                         "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, BouncyPaint",
-                            "Water, StickyPaint"
+                            "$chkPowerProg|4",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -106,15 +106,13 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$speed_key|TP_TA-EK|RP_TA-ZK"
+                    "$speed_key|TP_TA-EK|RP_TA-ZK, $chkPowerProg|4",
+                    "$speed_key|TP_TA-EK|RP_TA-ZK, $chkPower|1|1|0"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, StickyPaint"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_bronze",
                             "opt_speedrun_silver",
@@ -125,10 +123,7 @@
                     },
                     {
                         "name": "Silver Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, StickyPaint"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_silver",
                             "opt_speedrun_gold",
@@ -138,10 +133,7 @@
                     },
                     {
                         "name": "Gold Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, StickyPaint"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [
                             "opt_speedrun_gold",
                             "opt_speedrun_platinum"
@@ -150,10 +142,7 @@
                     },
                     {
                         "name": "Platinum Medal",
-                        "access_rules": [
-                            "ProgressivePower_stage2",
-                            "Water, StickyPaint"
-                        ],
+                        "access_rules": [], 
                         "visibility_rules": [
                             "opt_speedrun_platinum"
                         ],

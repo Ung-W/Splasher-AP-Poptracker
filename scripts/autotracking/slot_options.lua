@@ -1,6 +1,3 @@
-local prog_pow = false
-local prog_both = false
-
 function get_slot_options(slot_data)
 	Tracker:FindObjectForCode('opt_splasher').AcquiredCount = slot_data["splashers_goal"]
 	print("Slot Data Splasher Goal OK")
@@ -8,22 +5,21 @@ function get_slot_options(slot_data)
 	if slot_data["include_medals"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_speedrun")
 		local stage = slot_data["include_medals"]
+		
 		if stage >= 5 then
 			stage = 0
 		end
-		if obj then
-			obj.CurrentStage = stage
-		end
+		obj.CurrentStage = stage
+
 		print("Slot Data Speedrun Medals OK")
 	end
 
     if slot_data["randomize_golden_splashers"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_gold_splasher")
 		local state = slot_data["randomize_golden_splashers"]
+		
 		if state then
-			if obj then
             	obj.CurrentStage = state
-        	end
 		end
         
 		print("Slot Data Gold Splashers OK")
@@ -32,38 +28,49 @@ function get_slot_options(slot_data)
 	if slot_data["include_keys"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_ek")
 		local stage = slot_data["include_keys"]
+
 		if stage >= 3 then
 			stage = 0
 		end
+
 		if obj then
 			obj.CurrentStage = stage
 		end
+
 		print("Slot Data Entrance Keys OK")
 
 		if slot_data["include_speedrun_keys"] ~= nil then
 			local obj = Tracker:FindObjectForCode("opt_ek_speedrun")
 			local state = slot_data["include_speedrun_keys"]
+
 			if state then
-				if obj then
-					obj.CurrentStage = state
-				end
+				obj.CurrentStage = state
 			end
+
 			print("Slot Data Speedrun Keys OK")
 		end
 	end
 
 	if slot_data["randomize_powers"] ~= nil then
-		prog_pow = false
-		prog_both = false
 		local state = slot_data["randomize_powers"]
+
 		if state == 3 then
-			prog_pow = true
-			if slot_data["progressive_water"] == 0 then
-				print("Powers are progressive and water is not progressive")
-				prog_both = true
-			end
+			local obj = Tracker:FindObjectForCode("opt_prog_powers")
+			obj.CurrentStage = 1
 		end
-		print("Slot Data Progressive Settings OK")
+
+		print("Slot Data Progressive Powers OK")
+	end
+
+	if slot_data["progressive_water"] ~= nil then
+		local state = slot_data["progressive_water"]
+
+		if state then
+			local obj = Tracker:FindObjectForCode("opt_prog_water")
+			obj.CurrentStage = state
+		end
+		
+		print("Slot Data Progressive Water OK")
 	end
 end
 
@@ -112,7 +119,8 @@ function waterIcon()
 end
 
 function powerIcon()
-	if prog_both then
+	local obj = Tracker:FindObjectForCode("opt_prog_water")
+	if obj.CurrentStage == 0 then
 		local progPower = Tracker:FindObjectForCode("ProgressivePower")
 		if progPower.CurrentStage == 0 then
 			progPower.CurrentStage = 2
@@ -120,47 +128,92 @@ function powerIcon()
 	end
 end
 
+function hasNoWater()
+	return true
+end
+
 function hasPollutedWater()
-	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
 	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
 
-	return water_cond > 0 or progWater_state >= 1
+	return progWater_state >= 1
 end
 
 function hasCleanWater()
-	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
 	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
 
-	
-	local sticky_cond = Tracker:FindObjectForCode("StickyPaint").AcquiredCount
-	local bouncy_cond = Tracker:FindObjectForCode("BouncyPaint").AcquiredCount
+	local sticky_cond = Tracker:FindObjectForCode("StickyPaint").CurrentStage
+	local bouncy_cond = Tracker:FindObjectForCode("BouncyPaint").CurrentStage
 
-	return water_cond > 0 or progWater_state >= 2 or (progWater_state == 1 and (sticky_cond > 0 or bouncy_cond > 0))
+	return progWater_state >= 2
 end
 
 function hasSpeedWater()
-	local water_cond = Tracker:FindObjectForCode("Water").AcquiredCount
 	local progWater_state = Tracker:FindObjectForCode("ProgressiveWater").CurrentStage
 
-	return water_cond > 0 or progWater_state == 3
+	return progWater_state == 3
 end
 
-function chkPower(water_state, sticky_state, bouncy_state)
-	local sticky_chk = Tracker:FindObjectForCode("StickyPaint").AcquiredCount
-	local bouncy_chk = Tracker:FindObjectForCode("BouncyPaint").AcquiredCount
+local water_checks = {
+	[0] = hasNoWater,
+	[1] = hasPollutedWater,
+	[2] = hasCleanWater,
+	[3] = hasSpeedWater
+}
 
-	return water_state
+function chkPower(water_state, sticky_state, bouncy_state)
+	water_state = tonumber(water_state)
+	sticky_state = tonumber(sticky_state)
+	bouncy_state = tonumber(bouncy_state)
+
+    local water_check = water_checks[water_state]
+
+	if not water_check then
+		print("Water check Failed")
+        return false
+    end
+
+	local water_res = water_check()
+
+	local sticky_chk = Tracker:FindObjectForCode("StickyPaint").CurrentStage
+	local bouncy_chk = Tracker:FindObjectForCode("BouncyPaint").CurrentStage
+
+	return water_res
 		and sticky_chk >= sticky_state
 		and bouncy_chk >= bouncy_state
 end
 
-function chkPowerProg(withProgW, withoutProgW)
-	if prog_pow then
-		local progPow_chk = Tracker:FindObjectForCode("ProgressivePower").AcquiredCount
-		if prog_both then
-			return progPow_chk >= withProgW
-		end
-		return progPow_chk >= withoutProgW
-	end
-	return false
+function chkPowerProg(progReq)
+	progReq = tonumber(progReq)
+
+	local prog_chk = Tracker:FindObjectForCode("ProgressivePower").CurrentStage
+	
+	return prog_chk >= progReq
+end
+
+function chkPowerDebug(water_state, sticky_state, bouncy_state)
+	water_state = tonumber(water_state)
+	sticky_state = tonumber(sticky_state)
+	bouncy_state = tonumber(bouncy_state)
+
+    local water_check = water_checks[water_state]
+
+	if not water_check then
+		print("Water check Failed")
+        return false
+    end
+
+	local water_res = water_check()
+
+	print("water_state = ", water_state, "| water_res = ", water_res)
+
+	local sticky_chk = Tracker:FindObjectForCode("StickyPaint").CurrentStage
+	local bouncy_chk = Tracker:FindObjectForCode("BouncyPaint").CurrentStage
+
+	print("sticky_state = ", sticky_state, "| sticky_chk = ", sticky_chk)
+	
+	print("bouncy_state = ", bouncy_state, "| bouncy_chk = ", bouncy_chk)
+
+	return water_res
+		and sticky_chk >= sticky_state
+		and bouncy_chk >= bouncy_state
 end

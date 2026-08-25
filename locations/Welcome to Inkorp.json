@@ -56,8 +56,10 @@
                     {
                         "name": "Splasher (6)",
                         "access_rules": [
-                            "ProgressivePower_stage1",
-                            "$hasCleanWater"
+                            "$chkPowerProg|2",
+                            "$chkPower|2|0|0",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -65,8 +67,10 @@
                     {
                         "name": "Splasher (Gold)",
                         "access_rules": [
-                            "ProgressivePower_stage1",
-                            "$hasCleanWater"
+                            "$chkPowerProg|2",
+                            "$chkPower|2|0|0",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [
                             "opt_gold_splasher_true"
@@ -76,8 +80,10 @@
                     {
                         "name": "Clear",
                         "access_rules": [
-                            "ProgressivePower_stage1",
-                            "$hasCleanWater"
+                            "$chkPowerProg|2",
+                            "$chkPower|2|0|0",
+                            "$chkPower|1|1|0",
+                            "$chkPower|1|0|1"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -90,8 +96,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "ProgressivePower_stage1",
-                    "$hasCleanWater"
+                    "$chkPowerProg|2",
+                    "$chkPower|2|0|0",
+                    "$chkPower|1|1|0",
+                    "$chkPower|1|0|1"
                 ],
                 "sections": [
                     {
