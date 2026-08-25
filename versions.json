@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.8.0",
+            "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.8.0/Splasher-AP-Poptracker-0.8.0.zip",
+            "sha256": "944d6a4fc09ff9019a077cc518b880933e024498ae6b877f37f8f02044629c52",
+            "changelog": [
+                "Progressive Powers/Water Release"
+            ]
+        },
+        {
             "package_version": "0.7.0",
             "download_url": "https://github.com/Ung-W/Splasher-AP-Poptracker/releases/download/v0.7.0/Splasher-AP-Poptracker-0.7.0.zip",
             "sha256": "460529b5588cee3b2af4ddc967f8b37c3f237f298b60d92b80e3e9572451b5ec",
