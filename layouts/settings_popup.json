@@ -22,7 +22,7 @@
                                 "opt_splasher", "opt_ek"
                             ],
                             [
-                                "opt_gold_splasher"
+                                "opt_gold_splasher", "opt_cp"
                             ],
                             [
                                 "opt_speedrun", "opt_ek_speedrun"
@@ -49,11 +49,11 @@
                         "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 36,
-                        "item_width": 36,
+                        "item_height": 30,
+                        "item_width": 30,
                         "rows": [
                             [
-                                "opt_ek", "opt_speedrun" ,"opt_gold_splasher", "opt_splasher", "opt_ek_speedrun"
+                                "opt_ek", "opt_speedrun", "opt_cp", "opt_gold_splasher", "opt_splasher", "opt_ek_speedrun"
                             ]
                         ]
                     }

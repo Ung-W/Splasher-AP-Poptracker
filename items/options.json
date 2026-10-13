@@ -151,5 +151,37 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Checkpoint Sanity",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Checkpoint Sanity is off",
+                "img": "images/items/ProgressivePower13.png",
+                "img_mods": "@disabled",
+                "codes": "opt_cp,opt_cp_off"
+            },
+            {
+                "name": "Checkpoint Sanity is No Item",
+                "img": "images/items/ProgressivePower13.png",
+                "codes": "opt_cp,opt_cp_noitem",
+                "inherit_codes": false
+            },
+            {
+                "name": "Checkpoint Sanity is Useful",
+                "img": "images/items/ProgressivePower13.png",
+                "codes": "opt_cp,opt_cp_useful",
+                "inherit_codes": false
+            },
+            {
+                "name": "Checkpoint Sanity is Progressive",
+                "img": "images/items/ProgressivePower13.png",
+                "codes": "opt_cp,opt_cp_prog",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

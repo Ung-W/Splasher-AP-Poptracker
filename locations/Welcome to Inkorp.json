@@ -143,6 +143,33 @@
                 ]
             },
             {
+                "name": "Checkpoints_1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "visibility_rules": [
+                    "opt_checkpoint"
+                ],
+                "sections": [
+                    {
+                        "name": "Checkpoint 1",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Checkpoint 2",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Checkpoint 3",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Welcome to Inkorp - Unlock",
                 "sections": [
                     {
@@ -274,6 +301,60 @@
                     {
                         "name": "Splasher (!)",
                         "ref": "Welcome to Inkorp/Normal/Splasher (Gold)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 1858,
+                        "y": 1063,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Checkpoint",
+                "sections": [
+                    {
+                        "name": "Checkpoint 1",
+                        "ref": "Welcome to Inkorp/Checkpoints_1/Checkpoint 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 1858,
+                        "y": 1063,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Checkpoint",
+                "sections": [
+                    {
+                        "name": "Checkpoint 1",
+                        "ref": "Welcome to Inkorp/Checkpoints_1/Checkpoint 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Welcome to Inkorp",
+                        "x": 1858,
+                        "y": 1063,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Welcome to Inkorp - Checkpoint",
+                "sections": [
+                    {
+                        "name": "Checkpoint 1",
+                        "ref": "Welcome to Inkorp/Checkpoints_1/Checkpoint 3"
                     }
                 ],
                 "map_locations": [
